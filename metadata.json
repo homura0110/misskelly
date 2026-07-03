@@ -1,0 +1,6 @@
+{
+  "name": "Miss Kelly",
+  "description": "極簡風全齡層商品瀏覽網頁 - 柔和粉嫩色系、大圖網格佈局、簡約美感",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
