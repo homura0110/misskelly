@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-pink: #E85F8C;
+  --color-brand-blue: #7BC5E3;
+  --color-brand-peach: #F99E74;
+  
+  --color-brand-pink-light: #FFF0F4;
+  --color-brand-blue-light: #E8F5FA;
+  --color-brand-peach-light: #FFF4EF;
+}
+
+/* Custom styles for high-end feel */
+body {
+  background-color: #FCFBF9;
+  color: #333230;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FCFBF9;
+}
+::-webkit-scrollbar-thumb {
+  background: #EAE5DF;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D5CFC9;
+}
+
+/* Custom Font Size Scaling Overrides for A- (sm), A (md), A+ (lg) font options */
+.app-font-md .text-xs,
+.app-font-md .text-\[10px\],
+.app-font-md .text-\[11px\],
+.app-font-md .text-\[9px\] {
+  font-size: 0.88rem !important;
+}
+.app-font-md .text-sm {
+  font-size: 0.98rem !important;
+}
+.app-font-md .text-base {
+  font-size: 1.1rem !important;
+}
+.app-font-md .text-lg {
+  font-size: 1.22rem !important;
+}
+.app-font-md .text-xl {
+  font-size: 1.38rem !important;
+}
+.app-font-md .text-2xl {
+  font-size: 1.58rem !important;
+}
+.app-font-md .text-3xl {
+  font-size: 1.95rem !important;
+}
+
+.app-font-lg .text-xs,
+.app-font-lg .text-\[10px\],
+.app-font-lg .text-\[11px\],
+.app-font-lg .text-\[9px\] {
+  font-size: 0.98rem !important;
+}
+.app-font-lg .text-sm {
+  font-size: 1.12rem !important;
+}
+.app-font-lg .text-base {
+  font-size: 1.25rem !important;
+}
+.app-font-lg .text-lg {
+  font-size: 1.42rem !important;
+}
+.app-font-lg .text-xl {
+  font-size: 1.65rem !important;
+}
+.app-font-lg .text-2xl {
+  font-size: 1.9rem !important;
+}
+.app-font-lg .text-3xl {
+  font-size: 2.35rem !important;
+}
+
+
