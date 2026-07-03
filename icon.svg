@@ -1,0 +1,104 @@
+const CACHE_NAME = 'miss-kelly-cache-v2';
+const ASSETS_TO_CACHE = [
+  '/',
+  '/index.html',
+  '/icon.svg',
+  '/manifest.json'
+];
+
+// Install Event
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => {
+        console.log('[Service Worker] Pre-caching offline assets');
+        return cache.addAll(ASSETS_TO_CACHE);
+      })
+      .then(() => self.skipWaiting())
+  );
+});
+
+// Activate Event (Cleanup old caches)
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cache) => {
+          if (cache !== CACHE_NAME) {
+            console.log('[Service Worker] Removing old cache:', cache);
+            return caches.delete(cache);
+          }
+        })
+      );
+    }).then(() => self.clients.claim())
+  );
+});
+
+// Fetch Event (Network-first with offline fallback for modern pages, Cache-first for static icons/assets)
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
+
+  const url = new URL(event.request.url);
+
+  // Bypass Service Worker in development or for Vite-specific files to prevent "Page not found" or caching issues
+  if (
+    url.pathname.includes('@vite') ||
+    url.pathname.includes('node_modules') ||
+    url.pathname.includes('/src/') ||
+    url.searchParams.has('t') || // Vite's timestamp query parameter for HMR
+    self.location.hostname.includes('localhost') ||
+    self.location.hostname.includes('127.0.0.1') ||
+    self.location.hostname.includes('ais-dev-') // AI Studio Dev environment
+  ) {
+    return;
+  }
+
+  // For static local assets (like the SVG logo, manifest, etc.), resolve from cache first, then fetch in background
+  if (url.origin === self.location.origin && (url.pathname.endsWith('.svg') || url.pathname.endsWith('.json') || url.pathname.endsWith('.png') || url.pathname.endsWith('.jpg'))) {
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        if (cachedResponse) {
+          // Fetch fresh copy to keep cache hot
+          fetch(event.request).then((networkResponse) => {
+            if (networkResponse && networkResponse.status === 200) {
+              caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
+            }
+          }).catch(() => { /* offline or network failure */ });
+          return cachedResponse;
+        }
+        return fetch(event.request).then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+          }
+          return networkResponse;
+        });
+      })
+    );
+    return;
+  }
+
+  // Network-first with cache fallback for HTML pages and dynamically compiled JS/CSS modules
+  event.respondWith(
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseClone = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+        }
+        return networkResponse;
+      })
+      .catch(() => {
+        console.log('[Service Worker] Network failed, serving from cache:', event.request.url);
+        return caches.match(event.request).then((cachedResponse) => {
+          if (cachedResponse) {
+            return cachedResponse;
+          }
+          // If HTML page request fails completely, return the home screen index.html
+          if (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html')) {
+            return caches.match('/');
+          }
+        });
+      })
+  );
+});
