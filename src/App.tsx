@@ -1621,7 +1621,6 @@ export default function App() {
                           淺咖款
                         </span>
                       )}
-                      )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
@@ -1815,7 +1814,8 @@ export default function App() {
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                         selectedProduct.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
-                        selectedProduct.name.includes("23") ? "bg-pink-50 text-brand-pink border-brand-pink/20"
+                        selectedProduct.name.includes("23") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
                       }`}>
                         {selectedProduct.name.includes("21") ? " 2-BP 奶油高光" :
                          selectedProduct.name.includes("23") ? "3-BP亞麻高光" : ""}
