@@ -1,13 +1,10 @@
-import 'react';
-
 declare module 'react/jsx-runtime' {
-  export default any;
+  const content: any;
+  export default content;
 }
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      [elemName: string]: any;
-    }
+declare namespace JSX {
+  interface IntrinsicElements {
+    [elemName: string]: any;
   }
 }
