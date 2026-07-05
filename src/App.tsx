@@ -32,20 +32,6 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
-    id: "MK-S09",
-    name: "蘆薈 新款96%輕盈舒緩凝膠",
-    category: "保養",
-    price: 230,
-    unit: "/罐",
-    intro: "添加綠茶與積雪草的萬用舒緩凝膠，一抹極速降溫、深層補水，全家必備的純素舒緩神仙水。",
-    vendor: "HOLIKA HOLIKA",
-    image: "/images/蘆薈舒緩凝膠.jpg",
-    story: "這款萬用凝膠防護更升級！除了濟州島冷壓的 96% 純天然蘆薈葉汁之外，更新款配方特別添加了綠茶與積雪草（CICA）精華，能提供無與倫比的鎮定與修護能量。輕盈系列比舊款更加清涼降溫，臨床測試一抹即降低 5 度，無香料、無酒精，清爽不黏膩，是全家人必備的曬後修護與日常保濕萬用凝膠。",
-    specs: "規格：300ml / 罐 / 主成分：96% 蘆薈葉汁、綠茶萃取、積雪草萃取 / 產地：韓國",
-    stars: 4.9,
-    reviewsCount: 120
-  },
-  {
     id: "MK-S10",
     name: "蘆薈天然配方 97% 舒緩乳液",
     category: "保養",
@@ -58,20 +44,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "規格：240ml / 罐 / 主要成分：97% 濟州島發酵蘆薈、玻尿酸、草本複合修護因子、角鯊烷 / 適用用途：日常保濕、曬後舒緩、全家身體潤澤 / 產地：韓國",
     stars: 4.8,
     reviewsCount: 88
-  },
-  {
-    id: "MK-H12",
-    name: "揮別炸毛柔順護髮油",
-    category: "保養",
-    price: 370,
-    unit: "/罐",
-    intro: "輕盈不厚重的極致柔順香氛護髮精華油，深層滋潤受損髮絲，撫平乾枯分叉與毛躁，重現絲滑亮澤。",
-    vendor: "Mise en Scene",
-    image: "/images/毛躁髮.jpg",
-    story: "「Mise en Scene 揮別炸毛柔順護髮油」是修復受損、粗糙、乾枯髮絲的極致救星！蘊含多種珍稀天然植物精華油成分，深層滲透受損髮芯，為秀髮注入滿滿的營養與水分，全面改善分叉與毛躁現象。獨特的輕盈油體配方，質地絲滑不黏膩、不厚重，塗抹後瞬間被髮絲吸收，帶來卓越的柔順與亮澤感，展現如絲綢般的迷人光彩。全天候散發高雅迷人的法式香氛，讓您每一次撥動秀髮都散發自信優雅的氣息。",
-    specs: "規格：80ml / 罐 / 主要成分：黃金摩洛哥堅果油、荷荷巴油、玫瑰果油、椰子油、山茶花油 / 適用對象：所有髮質、特別推薦染燙受損、乾枯毛躁、易打結髮質 / 使用方法：洗髮後，用毛巾將頭髮擦至半乾，取適量護髮油均勻塗抹於髮中及髮尾，隨後吹乾即可。吹乾後亦可微量塗抹於髮尾以增加光澤與順滑度。",
-    stars: 4.8,
-    reviewsCount: 112
   },
   {
     id: "MK-W13-B",
@@ -450,20 +422,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "規格：罐 / 180ml (限量大容量版) / 主要成分：天然木瓜酵素、西印度櫻桃萃取物、維他命C、溫和植物保濕精華 / 適用用途：臉部、眼部、唇部卸妝、深層清潔毛孔與殘留彩妝 / 使用方法：臉部及雙手保持乾燥，取適量卸凝霜於手掌。均勻塗抹於全臉，以打圈方式輕柔按摩，使凝霜轉化為絲滑水油狀並徹底溶解彩妝（特別是眼唇部位）。接著沾取少量溫水，在臉上按摩至卸妝霜完全乳化變白，最後以溫水將全臉徹底沖洗乾淨即可。",
     stars: 4.9,
     reviewsCount: 198
-  },
-  {
-    id: "MK-B44",
-    name: "ZERO限量零負擔 卸妝霜100ml",
-    category: "保養",
-    price: 490,
-    unit: "/罐",
-    intro: "100ml限量款！內含木瓜成份，溫和徹底清潔面部彩妝，Cream推開變水油狀，眼唇彩妝一次過全臉卸妝，非常保濕及乾淨，不油膩好質感！",
-    vendor: "BANILA CO ZERO",
-    image: "/images/ZERO卸妝100MI.jpg",
-    story: "凱莉的愛牌第一首選，最近缺貨缺的好兇！「BANILA CO ZERO限量零負擔 卸妝霜100ml」來啦！凱莉剛剛好卸妝用完要換季了，換上保濕性更強的ZERO.，完全卸除臉部、眼部、唇部的妝，不油膩好乾淨！\\n\\n內含木瓜成份，溫和及徹底清潔面部彩妝，一次過全臉卸妝 (臉、眼、唇)。非常保濕及乾淨，Cream推開變水油狀，良好質感。使用時，臉及手不用沾濕，取適量於面上打圏按摩便可卸除臉部彩妝。",
-    specs: "規格：罐 / 100ml / 廠牌：BANILA CO ZERO / 主成分：木瓜萃取、植物鎖水精華、維他命C / 適用用途：眼部、唇部、臉部彩妝溫和徹底清潔 / 使用方法：臉及手不用沾濕，取適量於面上打圏按摩便可卸除臉部彩妝，最後以溫水乳化並沖洗乾淨即可。",
-    stars: 4.8,
-    reviewsCount: 145
   },
   {
     id: "MK-N61",
@@ -1139,20 +1097,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 245,
   },
   {
-    id: "MK-NEW25",
-    name: "植物5分鐘快速染髮(白髮專用） ",
-    category: "其他",
-    price: 280,
-    unit: "/組",
-    intro: "不傷頭皮，快速上色！含有黑豆成份的植物染髮劑，純植物配方，不刺激、無臭味！完全不傷髮質。",
-    vendor: "The face shop",
-    image: "/images/染髮.jpg",
-    story: "染五分鐘就可以快速上色，直接使用在白髮上，就可以染的很美嘍～因爲很多款染白髮的染髮劑，顏色太淺白頭髮染起來都太金了～染太深又很像假髮～買專門染白髮的上色又沒那麼快，價格也都比一般的染髮劑還貴又比較傷髮質～使用方法：請先戴上盒內所附的手套1.將「第一劑」及「第二劑」按1:1的比例加入所附的盒內，均勻攪拌。2.用所附的小梳子，沾取適量的染髮膏由髮根開始，均勻的梳到頭髮上。3.前額及兩側較易上色，染色次序應從後至兩側，最後前面瀏海，確定所有頭髮都有上色。4.建議可以讓染劑在髮上停留5-10分鐘。根據白髮髮量可適當延長時間5.先在用溫水沖洗，再用洗髮露洗髮最後塗上修護護髮素，輕輕按摩秀髮，溫水沖洗。若染劑不慎濺入眼，應及時以清水沖洗懷孕婦女請不要在孕期",
-    specs: " 規格：淺咖",
-    stars: 4.9,
-    reviewsCount: 245,
-  },
-  {
     id: "MK-NEW26",
     name: "人氣痘痘貼 ",
     category: "其他",
@@ -1616,11 +1560,6 @@ export default function App() {
                            product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
                         </span>
                       )}
-                      {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
-                        <span className="text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 bg-amber-50 text-amber-800 border-amber-200">
-                          淺咖啡色
-                        </span>
-                      )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
@@ -1803,12 +1742,6 @@ export default function App() {
                       }`}>
                         {selectedProduct.name.includes("舒緩冰感保濕面膜") ? "藍色～冰感" :
                          selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
-                      </span>
-                    )}
-
-                    {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
-                      <span className="text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm bg-amber-50 text-amber-800 border-amber-200">
-                        淺咖啡色
                       </span>
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
