@@ -326,20 +326,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 106
   },
   {
-    id: "MK-S112",
-    name: "波尿酸保濕亮白滋潤手膜",
-    category: "保養",
-    price: 60,
-    unit: "/組",
-    intro: "質地非常輕薄，敷在手上感覺很舒適 精華液超級豐富。",
-    vendor: "FARM STAY",
-    image: "/images/波尿酸保濕亮白滋潤手膜.jpg",
-    story: "質地非常輕薄，敷在手上感覺很舒適 精華液超級豐富。五種植萃精華與玻尿酸，敷完後感覺手部肌膚變得水潤有光澤",
-    specs: "一雙入/敷20-30分鐘取下按摩至精華吸收即可（不需要清洗）",
-    stars: 4.9,
-    reviewsCount: 132
-  },
-  {
     id: "MK-H113",
     name: "美肌模式隱形毛孔持妝控油蜜粉",
     category: "彩妝",
