@@ -1481,7 +1481,7 @@ export default function App() {
                       )}
                       {product.name.includes("秀膚生 Cell Fusion C") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
-                          product.name.includes("舒緩冰感保濕面膜 ") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          product.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
                           product.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
                           "bg-amber-50 text-amber-600 border-amber-200"
                         }`}>
@@ -1662,7 +1662,6 @@ export default function App() {
                          selectedProduct.name.includes("紅色") ? "紅色深層清潔去口臭" : ""}
                       </span>
                     )}
-
                     {selectedProduct.name.includes("秀膚生 Cell Fusion C") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                         selectedProduct.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
