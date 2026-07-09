@@ -1485,7 +1485,7 @@ export default function App() {
                           product.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
                           "bg-amber-50 text-amber-600 border-amber-200"
                         }`}>
-                          {product.name.includes("舒緩冰感保濕面膜 ") ? "舒緩冰感" :
+                          {product.name.includes("舒緩冰感保濕面膜") ? "舒緩冰感" :
                            product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
                         </span>
                       )}
