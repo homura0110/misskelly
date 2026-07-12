@@ -31,6 +31,20 @@ interface Product {
 
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
+   {
+    id: "MK-NEW29",
+    name: "微針深層清潔去角質凝膠",
+    category: "保養",
+    price: 690,
+    unit: "/罐",
+    intro: "溫和去角質",
+    vendor: "VT",
+    image: "/images/VT去角質.jpg",
+    story: "含有先進的純素去角質成分，如 PHA（葡萄糖酸內酯）和 LHA （辛酰水楊酸），可溫和地溶解毛孔內的雜質，使皮膚質地更光滑、更柔軟，而不會引起明顯的刺激性。含有CICA REEDLET™：這種獨特的 VT 成分，看起來像是微米級的天然二氧化矽（水解 海綿/二氧化矽），並注入了積雪草提取物，有助於深層清潔毛孔，改善膚質。越發亮澤肌膚。Cica Hyalon™™：積雪草、三重透明質酸、4X 積雪草複合物和綠色蜂膠萃取物的混合物。舒緩保濕。含有酪梨（Persea Gratissima）果實萃取物、魚腥草萃取物和三七萃取物等萃取物， 具有舒緩和保濕功效。讓肌膚更呈現健康狀態。",
+    specs: " 規格：容量150ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
   {
     id: "MK-W13-B",
     name: "93%強效淨白去垢升級版牙膏 藍色",
