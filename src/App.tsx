@@ -1451,6 +1451,16 @@ export default function App() {
                            product.name.includes("紅色") ? "紅色款" : ""}
                         </span>
                       )}
+                      {product.name.includes("秀膚生 Cell Fusion C") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          product.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("舒緩冰感保濕面膜") ? "舒緩冰感" :
+                           product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
+                        </span>
+                      )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
@@ -1623,6 +1633,16 @@ export default function App() {
                          selectedProduct.name.includes("白色") ? "白色美白牙齒" :
                          selectedProduct.name.includes("紅色") ? "紅色深層清潔去口臭" : ""}
                       </span>
+                    )}
+                      {selectedProduct.name.includes("秀膚生 Cell Fusion C") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("舒緩冰感保濕面膜") ? "藍色～冰感" :
+                           selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
+                        </span>
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
