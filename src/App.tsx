@@ -564,34 +564,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 78
   },
   {
-    id: "MK-M98",
-    name: "保濕舒緩面膜 積雪草",
-    category: "保養",
-    price: 100,
-    unit: "/3片",
-    intro: "99%高濃度積雪草升級面膜！150小時熟成、48小時冷卻提煉，保濕、淡斑、去敏感三重功效，面膜紙薄透又服貼，冰涼舒緩，痘痘肌與敏感肌必備！",
-    vendor: "MEDIHEAL",
-    image: "/images/積雪草面膜.jpg",
-    story: "集中保濕、舒緩泛紅、加強提亮！「MEDIHEAL 保濕舒緩面膜 積雪草 (Centella Mask)」由成分到精華、面膜紙都通過純素 (Vegan) 與敏感測試，敏感肌與痘痘肌都能安心敷上，讓受損、乾燥、泛紅的肌膚重回冰涼水潤的健康狀態。【150小時熟成 + 48小時冷淬精華】面膜含有 98% 積雪草高純度成分以及透明質酸（玻尿酸），強效修復受損肌膚、改善色素沉澱、去敏感並深層補水。積雪草成分特別通過 150 小時自然熟成及 48 小時低溫冷卻提煉，再經過多次過濾雜質，最大化活性功效，提升皮膚的極致吸收率！【保濕、淡斑、舒緩 三重升級功效】一次過做到保濕、淡化斑點色素、舒緩退紅！連孩子的青春痘都能在隔天得到顯著的鎮定，整張臉看起來亮白、水潤、透皙，讓乾燥與泛紅通通掰掰。敷起來冰冰涼涼超級舒服，敷完臉部亮白、氣色極佳，是必入手的護膚好物！【Vegan純素認證 超服貼薄透面膜紙】面膜紙極其薄透、服貼，能完美貼合臉部輪廓。精華液質地清爽不黏稠，由成份到精華、面膜紙都通過純素(Vegan)與低敏檢驗。敷起來極致享受，是現代人修復受損屏障與日常補水的最佳屏障面膜！",
-    specs: "規格：3片/包 / 廠牌：MEDIHEAL / 主要成分：98%熟成積雪草精華、透明質酸(玻尿酸)、舒緩因子 / 適用對象：敏感肌、痘痘肌、乾燥受損肌、欲改善色素沉澱與泛紅者 / 使用方法：清潔臉部及完成基礎化妝水保養後，取出面膜並均勻貼合於臉部。靜待 10-20 分鐘後取下面膜，將臉上剩餘的精華液用指腹輕輕拍打至完全吸收即可。建議每週使用 2-3 次以維持最佳膚質狀態。",
-    stars: 4.9,
-    reviewsCount: 120
-  },
-  {
-    id: "MK-M99",
-    name: "保濕舒緩面膜 玫瑰 PDRN",
-    category: "保養",
-    price: 100,
-    unit: "/3片",
-    intro: "99%高濃度升級面膜！富含玫瑰精油與PDRN，促進細胞再生、緊緻毛孔與修復受損屏障，抗老撫紋，敷出健康透亮的水嫩光澤肌！",
-    vendor: "MEDIHEAL",
-    image: "/images/玫瑰PDRN面膜.jpg",
-    story: "煥發自然健康光澤，開啟肌膚再生修復新篇章！「MEDIHEAL 保濕舒緩面膜 玫瑰 PDRN」專為想要改善老化、鬆弛、粗糙與乾燥肌膚者研發。透過 99% 高濃度升級配方，完美糅合高雅療癒的玫瑰精油與高效再生成分 PDRN，由成分到精華、面膜紙皆通過 vegan 純素與敏感測試，帶給您冰涼舒適的極致修護享受。【PDRN 促進再生 擊退老化細紋】 PDRN（多聚去氧核糖核苷酸）最關鍵的功效在於促進細胞活性與膠原蛋白合成，強效修復受損細胞。針對細紋、皮膚鬆弛下垂等初期老化困擾，PDRN 的強大再生能力能帶來顯著改善，讓肌膚重拾緊緻與彈性。【細緻毛孔 告別乾燥與下垂】 不僅能改善粗糙肌理，更能收斂毛孔、緊緻肌膚，同時深度補水，讓乾燥粗大掰掰。高濃度營養成分全面滲透，由內而外煥發健康水潤光采！【Vegan純素面膜紙 薄透服貼超保濕】 面膜紙薄透服貼，精華液質地清爽不黏稠，敷在臉上冰冰涼涼超級舒服。一次滿足集中保濕、舒緩泛紅、加強提亮等多重護膚需求，敷完膚質好到宛如剛做完高階SPA，絕對是必入手的抗老修護神物！",
-    specs: "規格：3片/包 / 廠牌：MEDIHEAL / 主要成分：玫瑰精油、PDRN再生因子、透明質酸(玻尿酸)、多重修護植物萃取 / 適用對象：乾性肌、熟齡肌、毛孔粗大、有細紋下垂與肌膚鬆弛困擾者、欲抗老修復、敏弱肌亦適用 / 使用方法：清潔臉部並做好基礎化妝水保養後，取出面膜貼於臉上。靜待 10-20 分鐘後取下面膜，將臉上剩餘的精華輕輕拍打至吸收即可。",
-    stars: 4.9,
-    reviewsCount: 95
-  },
-  {
     id: "MK-N101",
     name: "SPORTS 水潤光澤霜",
     category: "保養",
@@ -1479,16 +1451,6 @@ export default function App() {
                            product.name.includes("紅色") ? "紅色款" : ""}
                         </span>
                       )}
-                      {product.name.includes("秀膚生 Cell Fusion C") && (
-                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
-                          product.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
-                          product.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
-                          "bg-amber-50 text-amber-600 border-amber-200"
-                        }`}>
-                          {product.name.includes("舒緩冰感保濕面膜") ? "舒緩冰感" :
-                           product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
-                        </span>
-                      )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
@@ -1660,16 +1622,6 @@ export default function App() {
                         {selectedProduct.name.includes("藍色") ? "藍色去黃防牙結石" :
                          selectedProduct.name.includes("白色") ? "白色美白牙齒" :
                          selectedProduct.name.includes("紅色") ? "紅色深層清潔去口臭" : ""}
-                      </span>
-                    )}
-                    {selectedProduct.name.includes("秀膚生 Cell Fusion C") && (
-                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
-                        selectedProduct.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
-                        selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
-                        "bg-amber-50 text-amber-600 border-amber-200"
-                      }`}>
-                        {selectedProduct.name.includes("舒緩冰感保濕面膜") ? "藍色～冰感" :
-                         selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
                       </span>
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
