@@ -31,7 +31,35 @@ interface Product {
 
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
-   {
+  {
+    id: "MK-NEW32-2",
+    name: "彩色2D透氣隔離口罩",
+    category: "其他",
+    price: 80,
+    unit: "/包 200元/包",
+    intro: "透氣且不碰嘴唇，減少二次感染(顏色請截圖圈選私訊)",
+    vendor: "KF94",
+    image: "/images/口罩2.jpeg",
+    story: "耳朵拉神長時間配戴也不痛!棉質材質，美美的莫蘭迪色系",
+    specs: " 規格：10入/ 顏色：請見圖片(截圖圈選)",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-NEW32-1",
+    name: "彩色2D透氣隔離口罩",
+    category: "其他",
+    price: 80,
+    unit: "/包 200元/包",
+    intro: "透氣且不碰嘴唇，減少二次感染(顏色請截圖圈選私訊)",
+    vendor: "KF94",
+    image: "/images/口罩1.jpeg",
+    story: "耳朵拉神長時間配戴也不痛!棉質材質，美美的莫蘭迪色系",
+    specs: " 規格：10入/ 顏色：請見圖片(截圖圈選)",
+    stars: 4.9,
+    reviewsCount: 245,
+  },  
+  {
     id: "MK-NEW31",
     name: "激活生髮滾珠精華液",
     category: "保養",
