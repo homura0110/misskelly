@@ -35,7 +35,7 @@ const PRODUCTS_DATA: Product[] = [
     id: "MK-NEW36",
     name: "海鹽磨砂洗髮膏 ",
     category: "其他",
-    price: 280,
+    price: 530,
     unit: "/罐",
     intro: "強效的控油效果1星期使用2～3次即能打造24小時乾爽頭皮！",
     vendor: "Growus",
