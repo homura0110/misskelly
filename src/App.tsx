@@ -1566,7 +1566,6 @@ export default function App() {
                          selectedProduct.name.includes("深棕") ? "深棕色" : ""}
                       </span>
                     )}
-                    )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                         selectedProduct.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
