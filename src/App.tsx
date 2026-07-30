@@ -31,7 +31,49 @@ interface Product {
 
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
-   {
+  {
+    id: "MK-NEW36",
+    name: "海鹽磨砂洗髮膏 ",
+    category: "其他",
+    price: 280,
+    unit: "/罐",
+    intro: "強效的控油效果1星期使用2～3次即能打造24小時乾爽頭皮！",
+    vendor: "Growus",
+    image: "/images/海鹽去角質.jpg",
+    story: "調節頭皮油水分平衝、去除頭皮多餘角質、豐富礦物質維持頭皮健康、低刺激弱酸性配方、使用自體發熱成分，達到頭皮SPA效果、採用深海精華 打造柔軟健康髮質",
+    specs: " 規格：2250g",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-NEW35-2",
+    name: "植物5分鐘快速染髮(白髮專用)深棕",
+    category: "其他",
+    price: 280,
+    unit: "/罐",
+    intro: "染五分鐘就可以快速上色直接使用在白髮上，就可以染的很美嘍～",
+    vendor: " The face shop ",
+    image: "/images/染髮.jpg",
+    story: "1.將「第一劑」及「第二劑」各1包加入所附的盒內，均勻攪拌。2.用所附的小梳子，沾取適量的染髮膏由髮根開始，均勻的梳到頭髮上。3.前額及兩側較易上色，染色次序應從後至兩側，最後前面瀏海，確定所有頭髮都有上色。4.建議可以讓染劑在髮上停留5-8分鐘。5.先在用溫水沖洗，再用洗髮露洗髮",
+    specs: " 規格：20g(分成三份）看手套圍兜、盒子、梳子",
+    stars: 4.9,
+    reviewsCount: 245,
+  }, 
+  {
+    id: "MK-NEW35-1",
+    name: "植物5分鐘快速染髮(白髮專用)淺棕 ",
+    category: "其他",
+    price: 280,
+    unit: "/罐",
+    intro: "染五分鐘就可以快速上色直接使用在白髮上，就可以染的很美嘍～",
+    vendor: " The face shop ",
+    image: "/images/染髮.jpg",
+    story: "1.將「第一劑」及「第二劑」各1包加入所附的盒內，均勻攪拌。2.用所附的小梳子，沾取適量的染髮膏由髮根開始，均勻的梳到頭髮上。3.前額及兩側較易上色，染色次序應從後至兩側，最後前面瀏海，確定所有頭髮都有上色。4.建議可以讓染劑在髮上停留5-8分鐘。5.先在用溫水沖洗，再用洗髮露洗髮",
+    specs: " 規格：20g(分成三份）看手套圍兜、盒子、梳子",
+    stars: 4.9,
+    reviewsCount: 245,
+  }, 
+  {
     id: "MK-NEW34",
     name: "膠原蛋白保濕提亮化妝水 ",
     category: "保養",
@@ -1320,6 +1362,13 @@ export default function App() {
                           {product.name.includes("舒緩冰感保濕面膜") ? "舒緩冰感" :
                            product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
                         </span>
+                       )}
+                      {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("淺棕") ? "bg-amber-50 text-amber-600 border-amber-200" :
+                          product.name.includes("深棕") ? "bg-stone-100 text-stone-800 border-stone-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
                       )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1503,6 +1552,17 @@ export default function App() {
                           {selectedProduct.name.includes("舒緩冰感保濕面膜") ? "藍色～冰感" :
                            selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
                         </span>
+                    )}
+                    {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("淺棕") ? "bg-amber-50 text-amber-600 border-amber-200" :
+                        selectedProduct.name.includes("深棕") ? "bg-stone-100 text-stone-800 border-stone-300" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("淺棕") ? "淺棕色" :
+                         selectedProduct.name.includes("深棕") ? "深棕色" : ""}
+                      </span>
+                    )}
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
