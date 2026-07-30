@@ -34,7 +34,7 @@ const PRODUCTS_DATA: Product[] = [
    {
     id: "MK-NEW34",
     name: "膠原蛋白保濕提亮化妝水 ",
-    category: "保健",
+    category: "保養",
     price: 380,
     unit: "/罐",
     intro: "玫瑰金瓶的補水效能比之前好三倍豐沛膠原滋潤+改善膚色暗沉",
