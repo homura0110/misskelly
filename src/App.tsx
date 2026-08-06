@@ -32,6 +32,34 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-NEW38-2",
+    name: "飯店療癒保濕香氛沐浴露No.20 全新桑塔爾",
+    category: "盥洗",
+    price: 390,
+    unit: "/罐",
+    intro: "沉浸在森林系香氛中，每一次洗澡都是身心的舒壓SPA享受。",
+    vendor: "HETRA",
+    image: "/images/NO20.jpg",
+    story: "前調：小豆蔻、松樹（帶點微風與青翠的辛香氣息）中調：紫羅蘭、鳶尾花（散發淡淡的雅緻花香）後調：檀香、雪松、皮革、琥珀（呈現沉穩溫暖的成熟木質尾韻）",
+    specs: " 規格：容量1013ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-NEW38-1",
+    name: "飯店療癒保濕香氛沐浴露No.21 London Musk",
+    category: "盥洗",
+    price: 390,
+    unit: "/罐",
+    intro: "沉浸在森林系香氛中，每一次洗澡都是身心的舒壓SPA享受。",
+    vendor: "HETRA",
+    image: "/images/NO21.jpg",
+    story: "前調：迷迭香草本／柑橘／蘋果 中調：玫瑰／鳶尾花／棉花 基調：麝香／琥珀／木質",
+    specs: " 規格：容量1013ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
     id: "MK-NEW37",
     name: "發酵糙米 pH 值卸妝&洗臉平衡泡泡慕絲 ",
     category: "盥洗",
@@ -1348,6 +1376,16 @@ export default function App() {
                           {product.name.includes("舒緩冰感保濕面膜") ? "舒緩冰感" :
                            product.name.includes("積雪草涼感舒緩面膜") ? "積雪草涼感" : ""}
                         </span>
+                      )}
+                      {product.name.includes("飯店療癒保濕香氛沐浴露") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          product.name.includes("No.21 London Musk") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
+                           product.name.includes("No.21 London Musk") ? "No.21 London Musk" : ""}
+                        </span>
                        )}
                       {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1540,6 +1578,16 @@ export default function App() {
                         }`}>
                           {selectedProduct.name.includes("舒緩冰感保濕面膜") ? "藍色～冰感" :
                            selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
+                        </span>
+                    )}
+                      {selectedProduct.name.includes("飯店療癒保濕香氛沐浴露") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          selectedProduct.name.includes("No.21 London Musk") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
+                           selectedProduct.name.includes("No.21 London Musk") ? "No.21 London Musk" : ""}
                         </span>
                     )}
                     {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
