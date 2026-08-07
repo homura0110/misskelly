@@ -31,6 +31,20 @@ interface Product {
 
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
+   {
+    id: "MK-NEW39",
+    name: "手足保濕潤膚霜",
+    category: "盥洗",
+    price: 390,
+    unit: "/罐",
+    intro: "乾燥肌膚救星・柔嫩滑順新感受。專為乾燥、粗糙肌膚設計，溫和軟化角質、長效保濕",
+    vendor: "HANMI",
+    image: "/images/hanmi.jpg",
+    story: "取適量塗抹於清潔後的乾燥部位。可每日使用 1–2 次，或視乾燥程度適量增加。若角質較厚（如腳跟、手肘），可先去除表面老廢角質再塗抹。睡前可搭配凡士林或保濕霜包覆，並戴上襪子或手套加強保濕",
+    specs: " 規格：50g",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
   {
     id: "MK-NEW38-2",
     name: "飯店療癒保濕香氛沐浴露No.20 全新桑塔爾",
