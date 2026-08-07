@@ -34,9 +34,9 @@ const PRODUCTS_DATA: Product[] = [
    {
     id: "MK-NEW39",
     name: "手足保濕潤膚霜",
-    category: "盥洗",
-    price: 390,
-    unit: "/罐",
+    category: "其他",
+    price: 170,
+    unit: "/條",
     intro: "乾燥肌膚救星・柔嫩滑順新感受。專為乾燥、粗糙肌膚設計，溫和軟化角質、長效保濕",
     vendor: "HANMI",
     image: "/images/hanmi.jpg",
