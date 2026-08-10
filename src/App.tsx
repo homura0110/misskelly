@@ -33,7 +33,7 @@ interface Product {
 const PRODUCTS_DATA: Product[] = [
    {
     id: "MK-NEW39",
-    name: "手足保濕潤膚霜",
+    name: "20%尿素高保濕手腳裂修護霜",
     category: "其他",
     price: 170,
     unit: "/條",
@@ -100,21 +100,7 @@ const PRODUCTS_DATA: Product[] = [
     specs: " 規格：20g(分成三份）看手套圍兜、盒子、梳子",
     stars: 4.9,
     reviewsCount: 245,
-  }, 
-  {
-    id: "MK-NEW35-1",
-    name: "植物5分鐘快速染髮(白髮專用)淺棕 ",
-    category: "其他",
-    price: 280,
-    unit: "/罐",
-    intro: "染五分鐘就可以快速上色直接使用在白髮上，就可以染的很美嘍～",
-    vendor: " The face shop ",
-    image: "/images/染髮.jpg",
-    story: "1.將「第一劑」及「第二劑」各1包加入所附的盒內，均勻攪拌。2.用所附的小梳子，沾取適量的染髮膏由髮根開始，均勻的梳到頭髮上。3.前額及兩側較易上色，染色次序應從後至兩側，最後前面瀏海，確定所有頭髮都有上色。4.建議可以讓染劑在髮上停留5-8分鐘。5.先在用溫水沖洗，再用洗髮露洗髮",
-    specs: " 規格：20g(分成三份）看手套圍兜、盒子、梳子",
-    stars: 4.9,
-    reviewsCount: 245,
-  }, 
+  },  
   {
     id: "MK-NEW34",
     name: "膠原蛋白保濕提亮化妝水 ",
@@ -254,20 +240,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "規格：120g / 支 / 款式：藍色(去黃防牙結石)、白色(美白牙齒)、紅色(深層清潔去口臭) / 主成分：活性沸石、焦酸鈉 / 產地：韓國",
     stars: 4.8,
     reviewsCount: 94
-  },
-  {
-    id: "MK-B20",
-    name: "Easy-cut 益生菌",
-    category: "保健",
-    price: 620,
-    unit: "/盒",
-    intro: "韓國超爆款口服飽足益生菌！含有3600mg酪梨複合物、30億活菌與3000億後生元，搭配多重膳食纖維，輕鬆調節代謝、養出好菌相。",
-    vendor: "BBagio",
-    image: "/images/EZCUT.jpg",
-    story: "韓國超爆款口服版飽足益生菌「BBagio 바지오 마운제로 바이옴」！無需挨針、無劇烈副作用，一天一包，輕鬆吃出順暢好體態。科學證實腸道本能分泌飽足感荷爾蒙，此款研發宗旨即在於用「吃」的方式養好腸道！特別添加 3,600mg 酪梨複合物打擊壞油脂、促進脂肪代謝；蘊含 30 億活菌與 3,000 億後生元，能直接重塑腸道防護力、養出自動調節代謝的黃金好菌相。此外更添加難消化性麥芽糊精、菊苣纖維與燕麥纖維等多重膳食纖維，有效增強飽足感、減少熱量攝取，並讓排便順暢無阻。酸甜美味的優格風味，像零食般好入口，是您無痛進行體態管理與健康保養的完美新選擇！",
-    specs: "規格：30包/盒 / 主要成分：複合益生菌、酪梨複合物、後生元、膳食纖維 / 適用用途：調節代謝、幫助順暢、健康維持 / 服用方式：一日一包，餐前或餐後直接服用或配水服用",
-    stars: 4.8,
-    reviewsCount: 110
   },
   {
     id: "MK-B22",
@@ -662,20 +634,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 245
   },
   {
-    id: "MK-NEW03",
-    name: "淨膚保濕卸妝紙巾",
-    category: "保養",
-    price: 300,
-    unit: "/包",
-    intro: "潔面後也不黏膩，非常清爽。",
-    vendor: "ARIUL",
-    image: "/images/淨膚保濕卸妝紙巾.jpg",
-    story: "潔面後也不黏膩，非常清爽。可吸入顆粒物清潔力 99.25%，橄欖油由來清潔成分可柔和、乾淨地去除基礎妝容和濃妝。溫和護理角質，打造細滑肌膚紋理。弱酸性ph5.0左右有助於去除毛孔中的皮脂諾廢物。改善膚色效果vegan純素認證完畢！",
-    specs: "規格：100片入",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
     id: "MK-NEW04",
     name: "香氛抗菌去污内衣褲皂",
     category: "其他",
@@ -714,20 +672,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/舒緩冰感保濕面膜 .jpg",
     story: "一敷即涼，快速補水降溫-5°C，有效提升肌膚彈力 8.42%，質地濃潤不黏膩純棉材質面膜布，柔軟貼合肌膚不含薄荷醇、不含酒精，經過低刺激測驗，敏感肌也可安心使用",
     specs: "規格：27g",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
-    id: "MK-NEW12",
-    name: "植萃香氛洗髮精",
-    category: "盥洗",
-    price: 400,
-    unit: "/罐",
-    intro: "主打高達91%的天然成分與無矽靈弱酸性配方，適合敏感頭皮與細軟扁塌髮。",
-    vendor: "Hetra",
-    image: "/images/植萃香氛洗髮精 .jpg",
-    story: "主打高達91%的天然成分與無矽靈弱酸性配方，適合敏感頭皮與細軟扁塌髮。持香度可達48小時，有韓國首席調香師特調的香氛，檸檬雪松融合玫瑰小蒼蘭，清新甜美",
-    specs: "規格：1013ml",
     stars: 4.9,
     reviewsCount: 245
   },
@@ -773,34 +717,7 @@ const PRODUCTS_DATA: Product[] = [
     stars: 4.9,
     reviewsCount: 245
   },
-  {
-    id: "MK-NEW17",
-    name: "完美遮瑕氣墊粉餅SPF50+. PA++++ 21",
-    category: "美妝",
-    price: 680,
-    unit: "/組",
-    intro: "含有泛醇+8x透明質酸",
-    vendor: "CLIO",
-    image: "/images/CLIO完美遮瑕氣墊粉餅21.jpg",
-    story: "含有泛醇+8x透明質酸，保濕又補水、還有大馬士革玫瑰花水+洋甘菊混合肌。敏感肌適合使用喔！",
-    specs: " 規格：2-BP 奶油高光",
-    stars: 4.9,
-    reviewsCount: 245,
-  },
-  {
-    id: "MK-NEW18",
-    name: "完美遮瑕氣墊粉餅SPF50+. PA++++ 23",
-    category: "美妝",
-    price: 680,
-    unit: "/組",
-    intro: "含有泛醇+8x透明質酸",
-    vendor: "CLIO",
-    image: "/images/CLIO完美遮瑕氣墊粉餅23.jpg",
-    story: "含有泛醇+8x透明質酸，保濕又補水、還有大馬士革玫瑰花水+洋甘菊混合肌。敏感肌適合使用喔！",
-    specs: " 規格： 3-BP亞麻高光",
-    stars: 4.9,
-    reviewsCount: 245,
-  },
+  
   {
     id: "MK-NEW19",
     name: "PHYTO PDRN 再生亮白微針皂",
