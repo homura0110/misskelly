@@ -33,7 +33,7 @@ interface Product {
 const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-9M02",
-    name: "飯店療癒保濕香氛沐浴露NO.07 Hotel Wood 五星級飯店",
+    name: "飯店療癒保濕香氛沐浴露NO.07 Hotel Wood",
     category: "盥洗",
     price: 390,
     unit: "/罐",
@@ -1172,10 +1172,12 @@ export default function App() {
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
                           product.name.includes("No.21 London Musk") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          product.name.includes("NO.07 Hotel Wood") ? "bg-stone-50 text-stone-600 border-stone-200" :
                           "bg-amber-50 text-amber-600 border-amber-200"
                         }`}>
                           {product.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
-                           product.name.includes("No.21 London Musk") ? "No.21 London Musk" : ""}
+                           product.name.includes("No.21 London Musk") ? "No.21 London Musk" :
+                           product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
                        )}
                       {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
@@ -1375,10 +1377,12 @@ export default function App() {
                         <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                           selectedProduct.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
                           selectedProduct.name.includes("No.21 London Musk") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          selectedProduct.name.includes("NO.07 Hotel Wood") ? "bg-stone-50 text-stone-600 border-stone-200" :
                           "bg-amber-50 text-amber-600 border-amber-200"
                         }`}>
                           {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
-                           selectedProduct.name.includes("No.21 London Musk") ? "No.21 London Musk" : ""}
+                           selectedProduct.name.includes("No.21 London Musk") ? "No.21 London Musk" :
+                           selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
                     )}
                     {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
