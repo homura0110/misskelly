@@ -32,6 +32,76 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-9M07",
+    name: "香氛衣物除濕包",
+    category: "其他",
+    price: 50,
+    unit: "/包 380/袋",
+    intro: " 除濕＋香氛一次到位 高純度氯化鈣顆粒→ 吸濕力約一般除濕劑 2 倍 透濕薄膜設計→ 擴大接觸面 360° 快速吸濕 香氛緩釋技術→ 一邊除濕 一邊淨味留香",
+    vendor: "HETRAS",
+    image: "/images/除濕包.jpg",
+    story: " 香味｜Jeju Saryeoni Forest 濟州森林 前調：綠葉、檸檬、橘子 中調：玫瑰、茉莉、桂花 後調：木質調、麝香、琥珀 乾淨木質調的森林空氣感不刺鼻、不甜膩 是舒服自然的清爽香",
+    specs: " 規格：每片 150g 大容量 最高吸水量可達 2400mL  8片/袋",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-9M06",
+    name: "珂萊歐極致超防水濃密睫毛膏",
+    category: "彩妝",
+    price: 360,
+    unit: "/支",
+    intro: "超持久防水配方，全新研發5mm濃密纖維EX",
+    vendor: "CLIO",
+    image: "/images/睫毛膏.jpg",
+    story: " 超持久防水配方，全新研發5mm濃密纖維EX，配合東方女性眼型設計之弧型刷頭，根根分明速效快幹，瞬間增長濃密。 持久定型，不易脫色。富含6種美容液成分，上妝同時更可滋養睫毛。",
+    specs: " 規格：7g",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-9M05",
+    name: "蓮蓬頭過濾器檸檬",
+    category: "盥洗",
+    price: 250,
+    unit: "/個",
+    intro: "推薦給這樣的你，在找蓮蓬頭過濾器、沐浴過濾器 在意每天洗澡的水質與餘氯 想讓沐浴多一道過濾程序 喜歡洗澡時帶有淡淡香氣 想體驗韓國流行的香氛沐浴 租屋不方便安裝大型淨水設備 出國旅行也在意住宿環境的沐浴用水",
+    vendor: "BYOUR",
+    image: "/images/過濾器黃.jpg",
+    story: " 【簡易安裝方式】蓮蓬頭使用將原本蓮蓬頭與水管旋轉分離將沐浴過濾器上端接上蓮蓬頭過濾器下端接回水管確認旋緊後即可使用",
+    specs: " 規格：1入",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-9M04",
+    name: "蓮蓬頭過濾器芬多精",
+    category: "盥洗",
+    price: 250,
+    unit: "/個",
+    intro: "推薦給這樣的你，在找蓮蓬頭過濾器、沐浴過濾器 在意每天洗澡的水質與餘氯 想讓沐浴多一道過濾程序 喜歡洗澡時帶有淡淡香氣 想體驗韓國流行的香氛沐浴 租屋不方便安裝大型淨水設備 出國旅行也在意住宿環境的沐浴用水",
+    vendor: "BYOUR",
+    image: "/images/過濾器綠.jpg",
+    story: " 【簡易安裝方式】蓮蓬頭使用將原本蓮蓬頭與水管旋轉分離將沐浴過濾器上端接上蓮蓬頭過濾器下端接回水管確認旋緊後即可使用",
+    specs: " 規格：1入",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-9M03",
+    name: "彩虹細毛牙刷",
+    category: "盥洗",
+    price: 260,
+    unit: "/組",
+    intro: "繽紛彩虹撞色的牙刷，刷毛跟刷柄是不同顏色豐富的顏色，從刷牙開始就充滿活力，用起來就是心情好",
+    vendor: " ART Collection",
+    image: "/images/牙刷.jpg",
+    story: " 厚度減半，刷柄只有2.5mm 更能深入後排齒縫人體工學手柄，好握舒適，可以好好的刷牙極細0.01mm無刺激刷毛，柔軟高彈力深層清潔齒垢+深入牙間縫隙，溫和清潔齒面與牙齦無刺激纖細柔軟刷毛，有效保護敏感性牙齦",
+    specs: " 規格：12入",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
     id: "MK-9M02",
     name: "飯店療癒保濕香氛沐浴露NO.07 Hotel Wood",
     category: "盥洗",
@@ -268,20 +338,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "規格：罐 / 120ml / 主要成分：57.1%積雪草提取物、10%泛醇(維他命B5)、神經醯胺、保濕因子 / 適用用途：肌膚舒緩鎮定、補水保濕、退紅修護、屏障強化 / 使用方法：使用前充分搖勻，閉上雙眼，距離臉部20-30公分處均勻噴灑，輕拍至吸收即可。日常感到乾燥或妝前妝後均可隨時使用。",
     stars: 4.8,
     reviewsCount: 142
-  },
-  {
-    id: "MK-N54",
-    name: "Noscarna",
-    category: "保健",
-    price: 550,
-    unit: "/條",
-    intro: "韓國人手一條的祛疤神器！含有10倍細胞再生促進成分，迅速淡化青春痘疤、創傷、燒傷、手術等多種增生肥厚疤痕，膚色恢復率高達78%。",
-    vendor: "東亞製藥",
-    image: "/images/除疤.jpg",
-    story: "韓國大受歡迎、人手必備的祛疤神器！「東亞製藥 Noscarna 祛疤膏」是經臨床試驗證實的高效疤痕修復藥用級軟膏。專為傷口結痂後、青春痘疤痕、創傷、燒傷、手術傷等引起的肥厚性增生疤痕所設計。蘊含高達 10 倍於其他同類產品的促細胞再生關鍵活性成分，深入瓦解頑固疤痕組織，幫助肌膚重回平滑細緻的原始狀態。【核心五大修復力量】 瓦解疤痕組織：高濃度肝素鈉、尿囊素成分，強力促進細胞新陳代謝與再生，能有效淡化甚至長達數年的老舊疤痕。 改善色素沉澱與厚度：經臨床證實，使用後膚色恢復效果達 78%，傷疤厚度可減少 33.2%，還您無瑕均勻美肌。 10% 矽油保護膜：特調添加 10% 矽油成分，在疤痕表面形成超薄透氣隱形保護層，鎖水保濕、減少外部摩擦對新生肌膚的二次傷害。 溫和低刺激配方：質地親膚、延展性佳、吸收迅速，2歲以上幼童、敏感肌、痘痘肌以及成人皆能安心塗抹修護。 多種疤痕皆適用：無論是青春痘紅黑印記、創傷、燒傷、割傷還是手術切口，只要傷口完全結痂閉合即可立刻使用！",
-    specs: "規格：條 / 20g / 主要成分：肝素鈉、尿囊素、矽油(10%) / 適用對象：青春痘疤痕、創傷、燒傷、刀傷、手術傷、紋唇等增生肥厚性疤痕(2歲以上兒童至成人皆適用) / 使用方法：必須在傷口已完全結痂、癒合、無流血或組織液後使用。取適量塗抹於疤痕處及其周邊肌膚，早晚各一次，輕輕按摩至完全吸收。可隨身攜帶，一日可多次補擦以提升修護效果。",
-    stars: 4.9,
-    reviewsCount: 154
   },
   {
     id: "MK-M39",
@@ -689,21 +745,6 @@ const PRODUCTS_DATA: Product[] = [
     stars: 4.9,
     reviewsCount: 245
   },
-  {
-    id: "MK-NEW16",
-    name: "玻尿酸神仙水透明質酸大化妝水",
-    category: "保養",
-    price: 990,
-    unit: "/罐",
-    intro: "保濕才能不出油、抗皺",
-    vendor: "AHC",
-    image: "/images/AHC神仙水.jpg",
-    story: "AHC B5透明質酸玻尿酸爽膚水，韓國稱作是第一保濕化妝水，也叫AHC神仙水。它集合了精華，爽膚水，乳液為一體三效合一的功效，保濕滋潤修護肌膚，能夠祛痘印兒，淡化色斑。這款AHC B5透明質酸神仙水裡含有高濃縮的玻尿酸，據說1克的透明質酸可以吸收500毫升的水分，相當於500倍的吸水能力，比起膠原蛋白分子只能攜帶30倍的水分要強大的多得多，是你所想像不到的高能型產品。這款爽膚水的水分子更加的細膩，可以瞬間攜帶1000倍的營養進入肌膚的底層。聞起來味道更是非常的清淡，一種天然的花草香氣，對於收縮毛孔，水分持久力有著非同一般的明顯效果。每天早晚各拍一次，7天後改變肌底狀態，讓膚色明顯通透自然，滑滑嫩嫩的，上妝後更加自然服帖，潤氣十足，並且適用於所有肌膚，孕婦同樣可以使用喔！",
-    specs: "規格：1000ml",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  
   {
     id: "MK-NEW19",
     name: "PHYTO PDRN 再生亮白微針皂",
@@ -1200,6 +1241,16 @@ export default function App() {
                            product.name.includes("23") ? "3-BP亞麻高光" : ""}
                         </span>
                       )}
+                      {product.name.includes("蓮蓬頭過濾器") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("檸檬") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
+                          product.name.includes("芬多精") ? "bg-green-50 text-green-600 border-green-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("檸檬") ? "檸檬" :
+                           product.name.includes("芬多精") ? "芬多精" : ""}
+                        </span>
+                      )}
                     </div>
 
                   </div>
@@ -1403,6 +1454,16 @@ export default function App() {
                       }`}>
                         {selectedProduct.name.includes("21") ? " 2-BP 奶油高光" :
                          selectedProduct.name.includes("23") ? "3-BP亞麻高光" : ""}
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("蓮蓬頭過濾器") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("檸檬") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
+                        selectedProduct.name.includes("芬多精") ? "bg-green-50 text-green-600 border-green-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("檸檬") ? "檸檬" :
+                         selectedProduct.name.includes("芬多精") ? "芬多精" : ""}
                       </span>
                     )}
 
