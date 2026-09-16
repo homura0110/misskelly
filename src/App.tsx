@@ -32,6 +32,34 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-9M09",
+    name: "飯店療癒保濕香氛身體乳No.20 全新桑塔爾",
+    category: "保養",
+    price: 390,
+    unit: "/罐",
+    intro: "韓國香氛界超強王者HETRAS非常高級質感的香味 !! ",
+    vendor: "HETRA",
+    image: "/images/No.20 Santal Fresh身體乳.jpg",
+    story: "前調：小豆蔻、松樹（帶點微風與青翠的辛香氣息）中調：紫羅蘭、鳶尾花（散發淡淡的雅緻花香）後調：檀香、雪松、皮革、琥珀（呈現沉穩溫暖的成熟木質尾韻）重新詮釋桑塔爾檀香木，去除原本的濃郁厚重，注入更多與眾不同的新鮮感，帶來更豐富高級的感受。",
+    specs: " 規格：1013ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
+    id: "MK-9M08",
+    name: "飯店療癒保濕香氛身體乳NO.07 Hotel Wood",
+    category: "保養",
+    price: 390,
+    unit: "/罐",
+    intro: "沉韓國香氛界超強王者HETRAS非常高級質感的香味 !! ",
+    vendor: "HETRA",
+    image: "/images/no7bodylo.jpg",
+    story: " 前調： 綠意 中調： 鈴蘭 / 茉莉 / 草本 基調： 木質 / 麝香 / 琥珀 散發濃郁中性的木質香氣，喚起度假時的悠閒記憶。",
+    specs: " 規格：1013ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
     id: "MK-9M07",
     name: "香氛衣物除濕包",
     category: "其他",
@@ -466,20 +494,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 95
   },
   {
-    id: "MK-A42",
-    name: "莓果頭皮營養醋",
-    category: "盥洗",
-    price: 320,
-    unit: "/罐",
-    intro: "榮獲POWDER ROOM潤護髮類第一名！天然弱酸性莓果護髮醋，不含人工色素，深層潔淨角質、控油止癢、強韌髮根蓬鬆！",
-    vendor: "APIEU",
-    image: "/images/髮醋.jpg",
-    story: "沙龍級的頭皮弱酸性保養聖品！「APIEU 莓果頭皮營養醋」榮獲韓國知名美妝社區 POWDER ROOM 潤護髮類別大獎第一名，在全球掀起莓果頭皮護理熱潮。特別適合季節交替時頭皮敏感不適、油水失衡、易癢、有皮屑困擾的朋友。【天然醋酸平衡 打造健康頭皮微生態】 弱酸性溫和調理：洗髮精多為鹼性，會使毛鱗片張開，本品以最適合頭皮的弱酸性配方（醋、覆盆莓及多種穀物萃取），能溫和中和酸鹼度，收斂並撫平毛鱗片，深度去除老廢角質與髒污。 控油蓬鬆與止癢：深度調節頭皮油脂分泌，舒緩因敏感引起的紅癢，改善頭皮屑，讓秀髮洗後豐盈立體、空氣感爆棚。 豐富營養與髮質強韌：穀物與覆盆莓營養深層滲透髮根，減少脫髮現象，使髮絲回復烏黑亮麗、絲滑柔順。【奢華天然莓果香氛】完全不含人工色素，呈現天然浪漫的嫩粉色。在使用按摩時，釋放出淡淡的香甜清新莓果芬芳，讓從頭皮到髮絲都散發著迷人優雅的療癒香氣，保養頭皮的同時也能舒緩身心！",
-    specs: "規格：罐 / 200ml / 主要成分：天然醋、覆盆莓萃取、複合穀物精華、草本舒緩因子 / 適用用途：去除頭皮老廢角質、調節皮脂分泌、平衡酸鹼值、舒緩頭皮屑與紅癢、強韌髮根、增添髮絲蓬鬆光澤 / 使用方法：1. 先使用洗髮精清潔完頭髮並沖洗乾淨（此時毛鱗片因鹼性洗髮精而張開）。2. 取適量莓果頭皮營養醋直接倒在頭皮上，並順著髮絲均勻塗抹（完全不用擔心刺激頭皮）。3. 用指腹輕輕按摩頭皮 and 湧髮，大約靜置並按摩 30 秒至 1 分鐘（將毛鱗片隱藏的髒污洗出，並注入營養）。4. 最後以溫水將頭皮與頭髮徹底沖洗乾淨即可。",
-    stars: 4.9,
-    reviewsCount: 165
-  },
-  {
     id: "MK-B43",
     name: "限量零感肌瞬卸凝霜 大容量 零負擔卸妝霜",
     category: "保養",
@@ -672,20 +686,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/藥妝必買貼布冷熱敷涼感貼布大片裝.jpg",
     story: "每片尺寸 10x7（cm）採用堅固柔韌的面料！成不會影響肢體關節運動！關節疼痛、風濕病、背痛、肩周炎，都非常好用。",
     specs: "規格：罐 / (4g*60)",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
-    id: "MK-NEW04",
-    name: "香氛抗菌去污内衣褲皂",
-    category: "其他",
-    price: 60,
-    unit: "/個",
-    intro: "天然植萃。",
-    vendor: "VENUS 維納斯的秘密",
-    image: "/images/香氛抗菌去污内衣褲皂.jpg",
-    story: "天然植萃，分解血漬.污漬，去除異味，增加衣牣柔軟度抑止細菌，溫柔呵護女性健康",
-    specs: "規格： 120g",
     stars: 4.9,
     reviewsCount: 245
   },
@@ -1220,6 +1220,16 @@ export default function App() {
                            product.name.includes("No.21 London Musk") ? "No.21 London Musk" :
                            product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
+                      )}
+                      {product.name.includes("飯店療癒保濕香氛身體乳") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          product.name.includes("NO.07 Hotel Wood") ? "bg-stone-50 text-stone-600 border-stone-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
+                           product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
+                        </span>  
                        )}
                       {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1435,6 +1445,16 @@ export default function App() {
                            selectedProduct.name.includes("No.21 London Musk") ? "No.21 London Musk" :
                            selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
+                    )}
+                      {selectedProduct.name.includes("飯店療癒保濕香氛沐浴露") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          selectedProduct.name.includes("NO.07 Hotel Wood") ? "bg-stone-50 text-stone-600 border-stone-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
+                           selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
+                        </span>    
                     )}
                     {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
