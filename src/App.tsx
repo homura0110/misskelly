@@ -32,6 +32,230 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m11",
+    name: "最新款完美無瑕粉底液自然色調",
+    category: "彩妝",
+    price: 570,
+    unit: "/罐",
+    intro: "保留經典超級遮瑕力, 質地變得更輕盈",
+    vendor: "CLIO",
+    image: "/images/最新款完美無瑕粉底液.jpg",
+    story: "流動性更高的輕薄配方上臉薄薄一層，呈現柔霧妝效，在肌膚上迅速成膜凱莉等到了21N 自然膚色（自然色調）比較適合姊妹們的肌膚色系。23號顏色偏黃。緊密貼合肌膚，完美持久遮瑕，一整天下來還是一樣持妝！無需擔心悶厚感，如空氣般輕盈、自然！透過CLIO專屬的測色數據打造非常符合亞洲人肌膚的色調。CLIO真是亞洲系的妝品MAKE",
+    specs: "容量35ml",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m10",
+    name: "孔橡皮擦控油遮瑕膏+粉撲",
+    category: "彩妝",
+    price: 320,
+    unit: "/個",
+    intro: "這個根本是為毛孔隱形術而生的神級產品！一擦瞬間柔焦～新手絕對零失敗！不挑膚質、一拍融妝～拍上去質感超級好的滑潤！大大大驚艷耶！",
+    vendor: "Holika Holika",
+    image: "/images/孔橡皮擦控油遮瑕膏+粉撲.jpg",
+    story: "妝前打亮提潤 補妝急救神隊友 局部控油定妝一顆搞定！小巧可愛隨身帶超方便～「果凍轉化科技」一拍驚艷 ➊ 觸膚瞬間從果凍質地轉化成絲滑粉體➋ 立即控油！長效抗汗防水不斑駁➌ 獨特「半轉換凝膠」技術：保濕卻不黏膩➍ 吸附多餘油脂同時為肌膚鎖水💧➎ 超透明貼膚不厚重，定妝持久零粉感➏ 自帶柔霧絨焦效果，毛孔瑕疵一秒消失輕輕一抹：油光OUT！毛孔OUT！脫妝OUT！精緻高級霧面妝感立即GET～",
+    specs: "JelloBerry 2X",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m09",
+    name: "男士水潤新生多效七合一精華霜",
+    category: "保養",
+    price: 680,
+    unit: "/罐",
+    intro: "專為男性忙碌的生活設計，將多個保養步驟濃縮為一瓶。",
+    vendor: "NPRANI HOMME",
+    image: "/images/男士水潤新生多效七合一精華霜.jpg",
+    story: "刮鬍後鎮靜深層保濕提升肌膚彈力改善膚色調節皮脂改善皺紋 亮白。超級清爽的凝膠狀精華，吸收迅速且不黏膩。而且臉的質感變更飽水！蘊含豐富的植物萃取、草本與莓果複合物，有助於淨化疲憊的肌膚並舒緩因日常剃鬚引起的不適。",
+    specs: "200ml",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m08-3",
+    name: "塗抹式微針精華微晶全效修護面霜",
+    category: "保養",
+    price: 400,
+    unit: "/罐",
+    intro: "用於微針精華吸收後的後續步驟。提供深層保濕與舒緩修護，幫助減緩微針帶來的高效吸收刺激。美白、改善皺紋雙功能化妝品在肌膚上溫和形成保濕力，舒緩乾燥肌膚。提供保濕護理的修復霜。",
+    vendor: "VT",
+    image: "/images/微晶全效修護面霜.jpg",
+    story: "VT微針精華100與300屬於不同濃度的居家塗抹式微針保養，應於夜間清潔後作為第一道程序塗抹，300針不用天天使用。深層喚醒肌膚本質能量 結合VT獨家積雪草修護力，同時實現高效滲透與舒緩效果，重現光滑的肌膚一次使用即強化肌膚屏障，兩週明顯收細毛孔、提亮膚色舒緩泛紅不適，重現肌膚的健康光澤使用後能舒緩痘痘、淡化色斑，改善泛紅暗沉，同時修護受刺激的脆弱肌膚",
+    specs: "正品50ml/使用方式:1. 夜間清潔：晚上洗完臉後，直接將微針精華（100或依頻率用300）塗在臉上，以輕按方式幫助吸收（會有微刺感屬正常現象）。2。待精華完全吸收後，接著使用微晶全效修護面霜或其他溫和保濕產品鎖水。3. 日間防護：隔天早晚務必加強保濕與防曬",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m08-2",
+    name: "塗抹式微針精華300針中度型",
+    category: "保養",
+    price: 650,
+    unit: "/罐",
+    intro: "微針密度較高，加強對付細紋與毛孔。大約每3天才用一次，不可與100針同時混用或天天疊加。",
+    vendor: "VT",
+    image: "/images/VT300.jpeg",
+    story: "VT微針精華100與300屬於不同濃度的居家塗抹式微針保養，應於夜間清潔後作為第一道程序塗抹，300針不用天天使用。深層喚醒肌膚本質能量 結合VT獨家積雪草修護力，同時實現高效滲透與舒緩效果，重現光滑的肌膚一次使用即強化肌膚屏障，兩週明顯收細毛孔、提亮膚色舒緩泛紅不適，重現肌膚的健康光澤使用後能舒緩痘痘、淡化色斑，改善泛紅暗沉，同時修護受刺激的脆弱肌膚",
+    specs: "正品50ml/使用方式:1. 夜間清潔：晚上洗完臉後，直接將微針精華（100或依頻率用300）塗在臉上，以輕按方式幫助吸收（會有微刺感屬正常現象）。2。待精華完全吸收後，接著使用微晶全效修護面霜或其他溫和保濕產品鎖水。3. 日間防護：隔天早晚務必加強保濕與防曬",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m08-1",
+    name: "塗抹式微針精華100針日常型",
+    category: "保養",
+    price: 450,
+    unit: "/罐",
+    intro: "微針含量較低，質地溫和。適應後可每晚使用，適合新手建立耐受。",
+    vendor: "VT",
+    image: "/images/VT100.jpeg",
+    story: "VT微針精華100與300屬於不同濃度的居家塗抹式微針保養，應於夜間清潔後作為第一道程序塗抹，300針不用天天使用。深層喚醒肌膚本質能量 結合VT獨家積雪草修護力，同時實現高效滲透與舒緩效果，重現光滑的肌膚一次使用即強化肌膚屏障，兩週明顯收細毛孔、提亮膚色舒緩泛紅不適，重現肌膚的健康光澤使用後能舒緩痘痘、淡化色斑，改善泛紅暗沉，同時修護受刺激的脆弱肌膚",
+    specs: "正品50ml/使用方式:1. 夜間清潔：晚上洗完臉後，直接將微針精華（100或依頻率用300）塗在臉上，以輕按方式幫助吸收（會有微刺感屬正常現象）。2。待精華完全吸收後，接著使用微晶全效修護面霜或其他溫和保濕產品鎖水。3. 日間防護：隔天早晚務必加強保濕與防曬",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-5",
+    name: "Essential精華系列面膜神經醯胺精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "修護與鞏固肌膚屏障，幫助舒緩乾癢與緊繃感",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜神經醯胺精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "修護與鞏固肌膚屏障，幫助舒緩乾癢與緊繃感",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-4",
+    name: "Essential精華系列面膜維他命C精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "提亮膚色，改善暗沉，讓肌膚看起來更有精神。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜維他命C精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "提亮膚色，改善暗沉，讓肌膚看起來更有精神。",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-3",
+    name: "Essential精華系列面膜茶樹精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "清爽舒緩，適合油性或膚況不穩定時使用，帶來清新舒適感。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜茶樹精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "清爽舒緩，適合油性或膚況不穩定時使用，帶來清新舒適感。",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-2",
+    name: "Essential精華系列面膜玻尿酸精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "深層補水、保濕鎖水，乾燥肌膚的水嫩救星。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜玻尿酸精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "深層補水、保濕鎖水，乾燥肌膚的水嫩救星。",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-1",
+    name: "Essential精華系列面膜膠原蛋白精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "改善粗糙、柔嫩膚觸，維持肌膚彈潤感。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜膠原蛋白精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "改善粗糙、柔嫩膚觸，維持肌膚彈潤感。",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m06",
+    name: "菸鹼醯胺溫和弱酸潔膚水",
+    category: "保養",
+    price: 250,
+    unit: "/罐",
+    intro: "專為敏感肌膚設計。其弱酸性配方能溫和清潔毛孔內的彩妝及髒汙，有助於提亮膚色，改善暗沉。使用後，肌膚感到清爽舒適，不緊繃。500ml大容量，讓您每天都能使用，輕鬆擁有健康透亮的肌膚",
+    vendor: "WellDerma",
+    image: "/images/菸鹼醯胺溫和弱酸潔膚水.jpg",
+    story: "pH值約在 5~6 之間，配方溫和，適合敏感性肌膚使用：添加菸鹼醯胺，幫助提亮膚色、改善暗沉，使肌膚保持清透亮澤質地輕盈水潤，能溫和清除毛孔內的淡妝、防曬與日常髒汙，潔面後肌膚感到清爽舒適、不緊繃、依然水潤。",
+    specs: "規格：500ml",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m05",
+    name: "煙酰胺 +維他命C美白補濕面膜| Vegan 純素配方",
+    category: "保養",
+    price: 400,
+    unit: "/盒",
+    intro: "一整個月的面膜療程，交給它每日美白補濕生活所需含煙酰胺+維他命C，提亮暗沉暗沉肌膚，日常亮白護理面膜！",
+    vendor: "Mary & May ",
+    image: "/images/ary & May 抽取面膜.jpg",
+    story: "煙酰胺成分可抑制黑色素的轉移，使肌膚清爽乾淨，並通過平衡皮脂活性來幫助減少煩惱。含有維生素C，抑制黑色素生成，減少氧化黑色素，使暗沉的皮膚變得清澈乾淨 透明質酸是一種出色的水分供應源，可保持體重 1000 倍的水分，有效地為皮膚提供水分，幫助保持皮膚柔軟和濕潤 所有成分 EWG 綠色等級。皮膚刺激測試完成。有害成分 16FREE，無殘留低過敏性、天然裸片緊密貼合肌膚，快速輸送營養，即使敏感肌膚也能輕鬆進行日常護理，也不會產生刺激 ！30張大容量面膜紙，每天輕鬆抽一張，非常方便。減少獨立包裝，避免不必要的浪費，大豆油油墨印刷 完全環保與全素洗臉後，可即時敷上或用完爽膚水後敷上 打開蓋子，打開保護蓋，用小鑷子取出一張敷上10-15分鐘後，將剩餘的精華液輕輕按摩至全臉。",
+    specs: "規格：容量30張/盒",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m04",
+    name: "清爽瀏海控油棒",
+    category: "其他",
+    price: 430,
+    unit: "/罐",
+    intro: "天氣熱真的讓頭皮難以控制的大出油⋯⋯明明才剛洗頭，出門一陣子就開始油油亮亮、扁塌、條條分明尤其約會、上班、要拍照的時候，瀏海一塌真的整個人都質感不對了",
+    vendor: "Marla",
+    image: "/images/清爽瀏海控油棒.jpg",
+    story: "Naruka 控油棒專門整理出油瀏海、碎髮的小幫手像吸油面紙一樣，把髮絲的油膩感一掃而空。添加 Sebum Comfort Complex複合配方凝膠質地接觸髮絲後轉為乾爽感不容易留下明顯白粉感輕輕刷過就能整理油塌瀏海也能整理頭頂、鬢角等容易出油的部位自帶淡淡皂香＋白花香，清新不厚重小小一支，超級好攜帶。隨時整理尷尬又不舒服的瀏海有時候是一種禮貌耶！直接刷在容易出油的瀏海、髮根或碎髮處，幾秒後再用手或梳子整理即可喔！",
+    specs: "規格：容量15g",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m03",
+    name: "金鑽黑蝸牛抗氧深層淨化保濕面乳",
+    category: "盥洗",
+    price: 180,
+    unit: "/罐",
+    intro: "獨家的金鑽黑蝸牛原液洗面乳 有效深層潔淨肌膚 抗氧化保濕,洗完臉不乾澀",
+    vendor: "HOLIKA HOLIKA",
+    image: "/images/金鑽黑蝸牛抗氧深層淨化保濕面乳.jpg",
+    story: "成分：蘊含從黑蝸牛黏液中過濾萃取的黏蛋白成分、天然甘醇酸、尿囊素、軟骨素、黑珍珠效用：清爽水潤潔淨感受，發揮抗氧化及美白亮澤等功效",
+    specs: "規格：100ml",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-Y36",
+    name: "排油瘦身片",
+    category: "保健",
+    price: 650,
+    unit: "/罐",
+    intro: "韓國名廠藤黃果HCA高達80%！雙重阻斷碳水化合物合成脂肪，促進代謝排油，富含多種關鍵維生素，健康管理體態！",
+    vendor: "一洋藥品IL-YANG",
+    image: "/images/一洋排油瘦身片.jpg",
+    story: "健康體態管理的最佳搭檔！「一洋藥品IL-YANG 排油瘦身片」由韓國知名製藥大廠傾力研發。特別添加核心窈窕成分——藤黃果萃取物（HCA），能精準抑制脂肪酸合成，高效阻斷飲食中過多碳水化合物轉化為身體脂肪，全面減少多餘內臟與皮下脂肪堆積。【排油不排水，科學減脂維持美麗】 阻斷碳水化合物：阻止澱粉與糖分在體內形成贅肉，打造吃不胖的代謝體質。 排油效果：有效吸附餐食中的油脂並順暢排出，標榜「只排油，不排水」，維持體內水分平衡。 飽足感提升：能溫和提升飽足感並抑制食慾，減少不必要的熱量攝取。 奢華營養守護：富含維生素A、B1、B2、B6、D、E等多種關鍵維生素，減脂的同時能防止體內膠原蛋白流失，讓肌膚與氣色依舊紅潤亮澤、緊緻美麗。每日簡單一步驟，健康管理體態，無痛迎接輕盈無負擔的全新自我！",
+    specs: "規格：罐 / 60片 / 主要成分：藤黃果萃取物(含高濃度HCA)、維生素A、維生素B1、維生素B2、維生素B6、維生素D、維生素E、複合代謝因子 / 適用用途：體態健康管理、熱量阻斷、排油代謝、阻隔碳水化合物、補充日常營養 / 使用方法：一天一次，每次餐前一小時內服用2片（切勿超過一小時），以溫水送服。請配合均衡飲食與適度運動效果更佳。",
+    stars: 4.9,
+    reviewsCount: 142
+  },
+  {
     id: "MK-9M09",
     name: "飯店療癒保濕香氛身體乳No.20 全新桑塔爾",
     category: "保養",
@@ -90,7 +314,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-9M05",
     name: "蓮蓬頭過濾器檸檬",
-    category: "盥洗",
+    category: "其他",
     price: 250,
     unit: "/個",
     intro: "推薦給這樣的你，在找蓮蓬頭過濾器、沐浴過濾器 在意每天洗澡的水質與餘氯 想讓沐浴多一道過濾程序 喜歡洗澡時帶有淡淡香氣 想體驗韓國流行的香氛沐浴 租屋不方便安裝大型淨水設備 出國旅行也在意住宿環境的沐浴用水",
@@ -273,7 +497,7 @@ const PRODUCTS_DATA: Product[] = [
     id: "MK-NEW30",
     name: "PDRN脂質體緊緻撫紋棉片",
     category: "保養",
-    price: 350,
+    price: 370,
     unit: "/個",
     intro: "大容量 80片能夠全方位敷各個方位，每天都能安心使用",
     vendor: "RIRE",
@@ -454,7 +678,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-B43",
     name: "限量零感肌瞬卸凝霜 大容量 零負擔卸妝霜",
-    category: "保養",
+    category: "盥洗",
     price: 690,
     unit: "/罐",
     intro: "180ml限量大容量！專利零感科技配合天然木瓜酵素，Cream質地推開化為絲滑水油狀，眼唇彩妝一次溫和淨空，保濕舒緩零負擔！",
@@ -552,7 +776,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-B96",
     name: "兒童潔面慕斯 薰衣草",
-    category: "保養",
+    category: "盥洗",
     price: 170,
     unit: "/罐",
     intro: "專為幼兒弱敏肌設計！不流淚低敏配方、綿密細緻泡沫，洗淨過程減輕肌膚搓揉刺激，洗後清爽不乾澀，全家大小皆能安心使用！",
@@ -566,7 +790,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-B97",
     name: "兒童潔面慕斯 玫瑰",
-    category: "保養",
+    category: "盥洗",
     price: 170,
     unit: "/罐",
     intro: "專為弱敏肌製造！大馬士革玫瑰不流淚低敏配方，綿密細緻泡沫能在洗淨過程中減輕肌膚搓揉的刺激感，全家人均能安心使用！",
@@ -580,7 +804,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-M44",
     name: "魚腥草養護生髮精華滾珠",
-    category: "盥洗",
+    category: "保養",
     price: 350,
     unit: "/支",
     intro: "獨特特殊三球金屬滾輪！黃金防落髮比例（7%魚腥草 + 3.5%紫蘇葉 + 3.5%綠茶 + 15%漢方），養護毛囊、冰鎮頭皮、強韌髮根！",
@@ -692,7 +916,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-NEW15",
     name: "新魅黑防水超激細紅蓋版濃烈眼線液",
-    category: "美妝",
+    category: "彩妝",
     price: 270,
     unit: "/支",
     intro: "CLIO防水自動眼線液的升級版，防水、防油、防汗的效果更高更持久！",
@@ -1179,6 +1403,18 @@ export default function App() {
                            product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
                       )}
+                      {product.name.includes("塗抹式微針精華") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("100針日常型") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          product.name.includes("300針中度型") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          product.name.includes("微晶全效修護面霜") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("100針日常型") ? "100針日常型" :
+                           product.name.includes("300針中度型") ? "300針中度型" :
+                           product.name.includes("微晶全效修護面霜") ? "微晶全效修護面霜" : ""}
+                        </span>  
+                      )}
                       {product.name.includes("飯店療癒保濕香氛身體乳") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
@@ -1208,6 +1444,30 @@ export default function App() {
                           {product.name.includes("21") ? " 2-BP 奶油高光" :
                            product.name.includes("23") ? "3-BP亞麻高光" : ""}
                         </span>
+                      )}
+                      {product.name.includes("最新款完美無瑕粉底液") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("自然色調") ? "bg-amber-50 text-amber-800 border-amber-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("自然色調") ? "自然色調" : ""}
+                        </span>  
+                      )}
+                      {product.name.includes("Essential精華系列面膜") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("膠原蛋白精華") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                          product.name.includes("玻尿酸精華") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                          product.name.includes("茶樹精華") ? "bg-green-100 text-green-800 border-green-300" :
+                          product.name.includes("維他命C精華") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
+                          product.name.includes("神經醯胺精華") ? "bg-orange-50 text-orange-600 border-orange-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("膠原蛋白精華") ? " 膠原蛋白精華" :
+                           product.name.includes("玻尿酸精華") ? "玻尿酸精華" : 
+                           product.name.includes("茶樹精華") ? "茶樹精華" :
+                           product.name.includes("維他命C精華") ? "維他命C精華" :
+                           product.name.includes("神經醯胺精華") ? "神經醯胺精華" :""}
+                        </span>  
                       )}
                       {product.name.includes("蓮蓬頭過濾器") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1404,7 +1664,7 @@ export default function App() {
                            selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
                     )}
-                      {selectedProduct.name.includes("飯店療癒保濕香氛沐浴露") && (
+                      {selectedProduct.name.includes("飯店療癒保濕香氛身體乳") && (
                         <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                           selectedProduct.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
                           selectedProduct.name.includes("NO.07 Hotel Wood") ? "bg-stone-50 text-stone-600 border-stone-200" :
@@ -1412,7 +1672,19 @@ export default function App() {
                         }`}>
                           {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
                            selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
-                        </span>    
+                        </span>  
+                    )}
+                      {selectedProduct.name.includes("塗抹式微針精華") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("100針日常型") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          selectedProduct.name.includes("300針中度型") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          selectedProduct.name.includes("微晶全效修護面霜") ? "bg-slate-100 text-slate-700 border-slate-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("100針日常型") ? "100針日常型" :
+                           selectedProduct.name.includes("300針中度型") ? "300針中度型" : 
+                           selectedProduct.name.includes("微晶全效修護面霜") ? "微晶全效修護面霜" : ""}
+                        </span>       
                     )}
                     {selectedProduct.name.includes("植物5分鐘快速染髮(白髮專用)") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
@@ -1433,6 +1705,30 @@ export default function App() {
                         {selectedProduct.name.includes("21") ? " 2-BP 奶油高光" :
                          selectedProduct.name.includes("23") ? "3-BP亞麻高光" : ""}
                       </span>
+                    )}
+                    {selectedProduct.name.includes("最新款完美無瑕粉底液") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("自然色調") ? "bg-amber-50 text-amber-800 border-amber-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("自然色調") ? "自然色調" : ""}
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("Essential精華系列面膜") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("膠原蛋白精華") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                        selectedProduct.name.includes("玻尿酸精華") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                        selectedProduct.name.includes("茶樹精華") ? "bg-green-100 text-green-800 border-green-300" :
+                        selectedProduct.name.includes("維他命C精華") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
+                        selectedProduct.name.includes("神經醯胺精華") ? "bg-orange-50 text-orange-600 border-orange-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("膠原蛋白精華") ? "膠原蛋白精華" :
+                         selectedProduct.name.includes("玻尿酸精華") ? "玻尿酸精華" : 
+                         selectedProduct.name.includes("茶樹精華") ? "茶樹精華" : 
+                         selectedProduct.name.includes("維他命C精華") ? "維他命C精華" : 
+                         selectedProduct.name.includes("神經醯胺精華") ? "神經醯胺精華" : ""}
+                      </span>  
                     )}
                     {selectedProduct.name.includes("蓮蓬頭過濾器") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
