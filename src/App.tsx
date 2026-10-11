@@ -32,6 +32,218 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m19-2",
+    name: "塔羅玫瑰系列口紅05",
+    category: "彩妝",
+    price: 250,
+    unit: "/支",
+    intro: "塔羅玫瑰（Tarose Collection）」系列，主打清透、水潤、如玻璃般晶瑩的亮澤妝效。",
+    vendor: "HOLIKA HOLIKA ",
+    image: "/images/塔羅玫瑰系列口紅05.jpg",
+    story: " BLUSHING 帶有一絲棕調的甜美瑪薩拉玫瑰色 (Marsala Rose) 偏向紅磚玫瑰或帶有土色調的深玫瑰色，顯白且富有知性氣質。",
+    specs: "規格: 約 1.7g - 1.8g",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m19-1",
+    name: "塔羅玫瑰系列口紅03",
+    category: "彩妝",
+    price: 250,
+    unit: "/支",
+    intro: "塔羅玫瑰（Tarose Collection）」系列，主打清透、水潤、如玻璃般晶瑩的亮澤妝效。",
+    vendor: "HOLIKA HOLIKA ",
+    image: "/images/塔羅玫瑰系列口紅03.jpg",
+    story: " HIDDEN 像原生雙唇般的中性米色 (Neutral Beige) 非常溫柔的裸玫瑰色系，適合日常偽素顏妝容。",
+    specs: "規格: 約 1.7g - 1.8g",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m18-2",
+    name: "純素保養系列藍繡球玻尿酸深層保濕精華",
+    category: "保養",
+    price: 510,
+    unit: "/罐",
+    intro: "10重玻尿酸複合物、100%純玻尿酸奈米球、5%大米PDRN（聚脫氧核糖核苷酸）及濟州島藍繡球花萃取。",
+    vendor: "鄭瑄茉JUNG SAEM MOOL旗下 ",
+    image: "/images/純素保養系列藍繡球玻尿酸深層保濕精華.jpg",
+    story: " 深層注水：運用微囊包覆技術將奈米玻尿酸球深入肌底，號稱3秒提升保濕力、60秒達到豐盈澎潤。強化肌膚鎖水屏障，為乾燥、缺水或敏感肌提供全天候水潤感，並提升後續底妝的服貼度。",
+    specs: "規格: 30ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m18-1",
+    name: "純素保養系列粉紅番石榴谷胱甘肽精華",
+    category: "保養",
+    price: 510,
+    unit: "/罐",
+    intro: "結合100小時低溫萃取的粉紅番石榴精萃（富含維他命C）、脂質體穀胱甘肽、10%菸鹼醯胺（維生素B3）、2% α-熊果苷與1%乙基維他命C。",
+    vendor: "鄭瑄茉JUNG SAEM MOOL旗下 ",
+    image: "/images/純素保養系列粉紅番石榴谷胱甘肽精華.jpg",
+    story: " 淡斑修護：針對細小瑕疵、深色痘印與膚色不均進行集中靶向護理。抗氧化提亮：抑制黑色素沉澱，從根源改善暗沉，使肌膚恢復透亮光澤。輕盈水潤的精華質地，延展性佳、迅速滲透吸收且不黏膩。",
+    specs: "規格: 30ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m17-2",
+    name: "提亮臥蠶陰影筆棕",
+    category: "彩妝",
+    price: 150,
+    unit: "/罐",
+    intro: "棕管（棕色）인텐스（Intense / 濃郁深色）",
+    vendor: "HOLIKA HOLIKA",
+    image: "/images/提亮臥蠶陰影筆棕.jpg",
+    story: " 顏色更濃郁、偏深棕的款式，適合強調深邃感。",
+    specs: "規格：0.5g",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m17-1",
+    name: "提亮臥蠶陰影筆藍",
+    category: "彩妝",
+    price: 150,
+    unit: "/罐",
+    intro: "藍管（灰棕色）오리지널（Original / 經典原色）",
+    vendor: "HOLIKA HOLIKA",
+    image: "/images/提亮臥蠶陰影筆藍.jpg",
+    story: " 極為自然的淺棕色，適合新手打造柔和陰影。",
+    specs: "規格： 0.5g",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m16",
+    name: "黃金膠原蛋白安瓶防曬 BB 霜SPF50+ PA+++",
+    category: "彩妝",
+    price: 750,
+    unit: "/罐",
+    intro: "姊妹們！這個系列半價真心要買！沒有挑色自然校色！真的非常遮瑕！重點一咪咪就夠了耶！完美無瑕內⋯一邊保養一邊美美妝呢！",
+    vendor: "The FACE SHOP ",
+    image: "/images/黃金膠原蛋白安瓶防曬.jpg",
+    story: "防曬定妝粉底合二為一！智能bb霜一步完成彩妝.• 在黃金膠原蛋白複合物的成分中升級了清潔膠原蛋白.• Advanced Gold collagen Complex 含有清潔的膠原蛋白和植物角鯊烷，可緊緻肌膚，並在化妝期間提供水分，讓肌膚看起來健康.• 含有黃金膠原蛋白複合物（10ppm 黃金，0.1ppb 清潔膠原蛋白，100ppm角鯊烷）• 清潔膠原蛋白是指成分的脫胺膠原蛋白.• 帶紫外線防護的智能bb霜.• 皮膚貼合系統配方含有類似氨基酸的成分塗層粉末，柔軟光滑地附著在皮膚上.",
+    specs: "規格： 40ml.",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m15",
+    name: "后 拱辰享陰陽調和洗顏乳",
+    category: "盥洗",
+    price: 650,
+    unit: "/罐",
+    intro: "泡沫綿密細緻，深層清潔的同時維持肌膚保濕不緊繃。",
+    vendor: "The Whoo",
+    image: "/images/后 拱辰享陰陽調和洗顏乳.jpg",
+    story: "採用胺基酸潔面成分，結合韓方宮廷「拱辰精萃」配方，泡沫綿密細緻，深層清潔的同時維持肌膚保濕不緊繃。",
+    specs: "規格： 180ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m14",
+    name: "歐蕙晶致柔淨泡沫潔面霜",
+    category: "盥洗",
+    price: 130,
+    unit: "/支",
+    intro: "細緻綿密泡沫 溫和潔淨不緊繃 洗出透亮淨肌 洗後肌膚清爽透亮",
+    vendor: "O HUI",
+    image: "/images/歐蕙晶致柔淨泡沫潔面霜.jpg",
+    story: "深層潔淨 提亮膚色 帶走臟污油脂 洗后透亮有光澤 温和不緊繃 温和配方 綿密泡沫 保留肌膚水潤 敏感肌也適用 細緻柔滑觸感 晶致透亮的第一步 洗出乾淨更洗出透亮好膚質!清潔毛孔臟污與多餘油脂幫助後續保養品更好吸收洗後肌膚清爽不乾澀展現透亮柔嫩光采",
+    specs: "規格： 40ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m13",
+    name: "菲詩小舖香氛籽玫瑰身體噴霧",
+    category: "香氛",
+    price: 390,
+    unit: "/罐",
+    intro: "富含天然植物油與安第斯玫瑰果油可提供肌膚水潤保濕感",
+    vendor: "THE FACE SHOP",
+    image: "/images/菲詩小舖香氛籽玫瑰身體噴霧.jpg",
+    story: "香氣：散發浪漫持久的玫瑰花香 用途：可用於身體保濕與增添宜人香氛。",
+    specs: "規格： 155ml/成分：萃取自玫瑰果，含有維他命 A 與 C",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m12",
+    name: "Hi.bonHair 4-IN-1 逆齡啡髮洗髮精",
+    category: "盥洗",
+    price: 530,
+    unit: "/罐",
+    intro: "可改善髮質和減少掉髮達問題，更可將髮色變回輕柔啡色，重回年輕起點",
+    vendor: "皇牌",
+    image: "/images/逆齡啡髮洗髮精.jpg",
+    story: "可改善頭髮脆弱易斷、纖幼及暗啞等初老問題，同時增加每一條髮絲的直徑Hi.bonHair產品中成份已獲取韓國食品局MFDS 驗證有效改善脫髮症狀，提升光澤感✨以及改善因睡眠質素及飲食習慣所形成的灰或白髮問題，而且增加髮絲的效果，增強髮質柔軟度能即時增厚秀髮，細心呵護您每一吋頭皮頭髮，唔需要再染髮，都可以再次令髮質逆齡健康",
+    specs: "規格：400ml/漆樹提取物︰為秀髮深層補水，鎮靜受刺激的頭皮，呵護頭皮健康 魚腥草提取物：從核心修護，由內至外即時強化和修復受損髮絲，改善彈性，使頭髮健康亮澤。五倍子酸：一種植物多酚成分，讓您重回原本髮色，它會吸收到頭髮中進行自然氧化過程，使您的暗淡無光及白髮問題的髮色再次變得年輕豐盈，更顯自然。",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m01",
+    name: "莓果頭皮營養醋補充包",
+    category: "盥洗",
+    price: 430,
+    unit: "/袋",
+    intro: "榮獲POWDER ROOM潤護髮類第一名！天然弱酸性莓果護髮醋，不含人工色素，深層潔淨角質、控油止癢、強韌髮根蓬鬆！",
+    vendor: "APIEU",
+    image: "/images/莓果頭皮營養醋補充包.jpg",
+    story: "沙龍級的頭皮弱酸性保養聖品！「APIEU 莓果頭皮營養醋」榮獲韓國知名美妝社區 POWDER ROOM 潤護髮類別大獎第一名，在全球掀起莓果頭皮護理熱潮。特別適合季節交替時頭皮敏感不適、油水失衡、易癢、有皮屑困擾的朋友。【天然醋酸平衡 打造健康頭皮微生態】 弱酸性溫和調理：洗髮精多為鹼性，會使毛鱗片張開，本品以最適合頭皮的弱酸性配方（醋、覆盆莓及多種穀物萃取），能溫和中和酸鹼度，收斂並撫平毛鱗片，深度去除老廢角質與髒污。 控油蓬鬆與止癢：深度調節頭皮油脂分泌，舒緩因敏感引起的紅癢，改善頭皮屑，讓秀髮洗後豐盈立體、空氣感爆棚。 豐富營養與髮質強韌：穀物與覆盆莓營養深層滲透髮根，減少脫髮現象，使髮絲回復烏黑亮麗、絲滑柔順。【奢華天然莓果香氛】完全不含人工色素，呈現天然浪漫的嫩粉色。在使用按摩時，釋放出淡淡的香甜清新莓果芬芳，讓從頭皮到髮絲都散發著迷人優雅的療癒香氣，保養頭皮的同時也能舒緩身心！",
+    specs: "規格：400ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-A42",
+    name: "莓果頭皮營養醋",
+    category: "盥洗",
+    price: 280,
+    unit: "/罐",
+    intro: "榮獲POWDER ROOM潤護髮類第一名！天然弱酸性莓果護髮醋，不含人工色素，深層潔淨角質、控油止癢、強韌髮根蓬鬆！",
+    vendor: "APIEU",
+    image: "/images/髮醋.jpg",
+    story: "沙龍級的頭皮弱酸性保養聖品！「APIEU 莓果頭皮營養醋」榮獲韓國知名美妝社區 POWDER ROOM 潤護髮類別大獎第一名，在全球掀起莓果頭皮護理熱潮。特別適合季節交替時頭皮敏感不適、油水失衡、易癢、有皮屑困擾的朋友。【天然醋酸平衡 打造健康頭皮微生態】 弱酸性溫和調理：洗髮精多為鹼性，會使毛鱗片張開，本品以最適合頭皮的弱酸性配方（醋、覆盆莓及多種穀物萃取），能溫和中和酸鹼度，收斂並撫平毛鱗片，深度去除老廢角質與髒污。 控油蓬鬆與止癢：深度調節頭皮油脂分泌，舒緩因敏感引起的紅癢，改善頭皮屑，讓秀髮洗後豐盈立體、空氣感爆棚。 豐富營養與髮質強韌：穀物與覆盆莓營養深層滲透髮根，減少脫髮現象，使髮絲回復烏黑亮麗、絲滑柔順。【奢華天然莓果香氛】完全不含人工色素，呈現天然浪漫的嫩粉色。在使用按摩時，釋放出淡淡的香甜清新莓果芬芳，讓從頭皮到髮絲都散發著迷人優雅的療癒香氣，保養頭皮的同時也能舒緩身心！",
+    specs: "規格：罐 / 200ml / 主要成分：天然醋、覆盆莓萃取、複合穀物精華、草本舒緩因子 / 適用用途：去除頭皮老廢角質、調節皮脂分泌、平衡酸鹼值、舒緩頭皮屑與紅癢、強韌髮根、增添髮絲蓬鬆光澤 / 使用方法：1. 先使用洗髮精清潔完頭髮並沖洗乾淨（此時毛鱗片因鹼性洗髮精而張開）。2. 取適量莓果頭皮營養醋直接倒在頭皮上，並順著髮絲均勻塗抹（完全不用擔心刺激頭皮）。3. 用指腹輕輕按摩頭皮 and 湧髮，大約靜置並按摩 30 秒至 1 分鐘（將毛鱗片隱藏的髒污洗出，並注入營養）。4. 最後以溫水將頭皮與頭髮徹底沖洗乾淨即可。",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m02",
+    name: "夜間瘦身助眠益生菌",
+    category: "保健",
+    price: 380,
+    unit: "/罐",
+    intro: "一款可以提高代謝、助眠瘦身的益生菌實在太適合現在生活壓力大、容易影響代謝、然後不好睡的當下",
+    vendor: "YP",
+    image: "/images/夜間瘦身益身菌.jpg",
+    story: "非常適合喜歡吃碳水化合物的我還是愛吃零食的人覺得自己喝水都會胖的姊妹或是正想用運動瘦身的人也有非常大的加乘效果喔！主要原料是藤黃果，加速身體機能代謝，提高睡眠品質、減去爆食的罪惡感晚餐後吃一條或是睡覺前讓我們一起「躺著瘦」",
+    specs: "規格：容量2g*30條",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+
+  {
+    id: "MK-S10",
+    name: "蘆薈天然配方 97% 舒緩乳液",
+    category: "保養",
+    price: 330,
+    unit: "/罐",
+    intro: "全方位極效舒緩乳液，保濕成分增加33%，吸收快完全不粘膩，大人、小孩、孕婦皆能安心擦拭。",
+    vendor: "HOLIKA HOLIKA",
+    image: "/images/蘆薈乳液.jpg",
+    story: "敲碗不斷的超人氣溫和乳液！這是一款全方位、能讓大人、小孩、孕婦都極致安心使用的天然舒緩乳液。富含濟州島發酵蘆薈與豐富天然成分，升級版配方將保濕成分含量大幅增加 33%，延展性順滑無比，易於被肌膚吸收。除了能迅速緩解因乾燥引起的緊繃不適，更能深層修護受損肌膚屏障，洗後與日常保養皆能安心擦拭。無添加人工香料、無礦物油、通過低刺激肌膚測試，是每位家庭成員必備的全效修護乳液！",
+    specs: "規格：240ml / 罐 / 主要成分：97% 濟州島發酵蘆薈、玻尿酸、草本複合修護因子、角鯊烷 / 適用用途：日常保濕、曬後舒緩、全家身體潤澤 / 產地：韓國",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+
+  {
     id: "MK-10m11",
     name: "最新款完美無瑕粉底液自然色調",
     category: "彩妝",
@@ -1435,6 +1647,36 @@ export default function App() {
                            product.name.includes("深棕") ? "深棕色" : ""}
                         </span>
                       )}
+                      {product.name.includes("塔羅玫瑰系列口紅") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("03") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                          product.name.includes("05") ? "bg-rose-100 text-rose-800 border-rose-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("03") ? "裸玫瑰色" :
+                           product.name.includes("05") ? "深玫瑰色" : ""}
+                        </span>  
+                      )}
+                      {product.name.includes("提亮臥蠶陰影筆") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("藍") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                          product.name.includes("棕") ? "bg-amber-50 text-amber-600 border-amber-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("藍") ? "藍" :
+                           product.name.includes("棕") ? "棕" : ""}
+                        </span>  
+                      )}
+                      {product.name.includes("純素保養系列") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("藍繡球玻尿酸深層保濕精華") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                          product.name.includes("粉紅番石榴谷胱甘肽精華") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("藍繡球玻尿酸深層保濕精華") ? "玻尿酸" :
+                           product.name.includes("粉紅番石榴谷胱甘肽精華") ? "谷胱甘肽" : ""}
+                        </span>   
+                      )}
                       {product.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++ ") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("21") ? "bg-pink-50 text-brand-pink border-brand-pink/20" :
@@ -1695,6 +1937,26 @@ export default function App() {
                         {selectedProduct.name.includes("淺棕") ? "淺棕色" :
                          selectedProduct.name.includes("深棕") ? "深棕色" : ""}
                       </span>
+                    )}
+                    {selectedProduct.name.includes("提亮臥蠶陰影筆") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("藍") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                        selectedProduct.name.includes("棕") ? "bg-amber-50 text-amber-600 border-amber-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("藍") ? "藍" :
+                         selectedProduct.name.includes("棕") ? "棕" : ""}
+                      </span> 
+                    )}
+                    {selectedProduct.name.includes("塔羅玫瑰系列口紅") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("03") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                        selectedProduct.name.includes("05") ? "bg-rose-100 text-rose-800 border-rose-300" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("03") ? "裸玫瑰色" :
+                         selectedProduct.name.includes("05") ? "深玫瑰色" : ""}
+                      </span>    
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
