@@ -32,6 +32,20 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m20",
+    name: "專業持久柔霧氣墊粉餅#19",
+    category: "彩妝",
+    price: 580,
+    unit: "/個",
+    intro: "Fair light 白皙象牙色 主打細緻、高遮瑕與持久不暗沉。適合混合肌或油性肌膚。",
+    vendor: "鄭瑄茉JUNG SAEM MOOL旗下 ",
+    image: "/images/專業持久柔霧氣墊粉餅19號.jpg",
+    story: " 半霧面柔霧妝感（韓網常稱為「第二層皮」氣墊），主打細緻、高遮瑕與持久不暗沉。適合混合肌或油性肌膚。具備 SPF50+ / PA++++。",
+    specs: "規格: 容量：14g（不含替換裝)",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
     id: "MK-10m19-2",
     name: "塔羅玫瑰系列口紅05",
     category: "彩妝",
@@ -1694,6 +1708,14 @@ export default function App() {
                         }`}>
                           {product.name.includes("自然色調") ? "自然色調" : ""}
                         </span>  
+                       )}
+                      {product.name.includes("專業持久柔霧氣墊粉餅") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("#19") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("#19") ? "白皙象牙色" : ""}
+                        </span>   
                       )}
                       {product.name.includes("Essential精華系列面膜") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1975,6 +1997,14 @@ export default function App() {
                       }`}>
                         {selectedProduct.name.includes("自然色調") ? "自然色調" : ""}
                       </span>
+                    )}
+                    {selectedProduct.name.includes("專業持久柔霧氣墊粉餅") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("#19") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("#19") ? "白皙象牙色" : ""}
+                      </span>  
                     )}
                     {selectedProduct.name.includes("Essential精華系列面膜") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
