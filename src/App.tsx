@@ -34,7 +34,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-10m25",
     name: "密集修護足霜",
-    category: "100",
+    category: "保養",
     price: 220,
     unit: "/罐",
     intro: " 通過了皮膚科學測試，非常適合去角質後的保養，連敏感肌也能安心使用",
@@ -62,7 +62,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-10m24",
     name: "極致亮 & 奇蹟光采日常防曬霜",
-    category: "保養",
+    category: "小樣",
     price: 100,
     unit: "/組 一組15包",
     intro: " 兼具防曬與自然提亮效果，幫助改善暗沉、均勻膚色並帶來水潤光澤。",
@@ -90,7 +90,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-10m22",
     name: " CNP RX 蜂膠奇蹟安瓶精華",
-    category: "保養",
+    category: "小樣",
     price: 100,
     unit: "/組 一組15包",
     intro: " 煥活肌膚奇跡，綻放年輕光澤",
@@ -104,7 +104,7 @@ const PRODUCTS_DATA: Product[] = [
   {
     id: "MK-10m21",
     name: " CNP RX 貴婦煥活面霜",
-    category: "保養",
+    category: "小樣",
     price: 100,
     unit: "/組 一組15包",
     intro: " CNP面霜 貴婦面霜 緊緻面霜 頂級系列",
