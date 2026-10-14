@@ -32,6 +32,90 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m25",
+    name: "密集修護足霜",
+    category: "100",
+    price: 220,
+    unit: "/罐",
+    intro: " 通過了皮膚科學測試，非常適合去角質後的保養，連敏感肌也能安心使用",
+    vendor: " plu ",
+    image: "/images/密集修護足霜.jpg",
+    story: "• 高吸收不黏膩：質地偏向舒緩的霜狀（Suothing Texture），能被肌膚快速吸收，擦完後不會留下惱人的黏膩感。• 強效鎖水修護：專門針對去角質或 peeling 之後的肌膚進行「急救補水」，能預防或改善足底厚繭、硬皮與長年老繭。• 清新森林草本香：帶有淡淡的清新草本/森林香氣，能有效緩解足部異味，帶來如 SPA 般的放鬆體驗。",
+    specs: "成分:維生素複合物 (C、B3、B5)、神經醯胺、積雪草苷、天然滋養因子",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-NEW11",
+    name: "PDRN 保濕潤澤護理液",
+    category: "其他",
+    price: 470,
+    unit: "/組",
+    intro: "補充水分，維持雙眼舒適",
+    vendor: "Lian",
+    image: "/images/PDRN保濕潤澤護理液.jpg",
+    story: "補充水分，維持雙眼舒適，上班盯電腦、滑手機的必備好物，無添加防腐劑，溫和保養更放",
+    specs: "規格：0.5ml×30入單支包裝",
+    stars: 4.9,
+    reviewsCount: 245
+  },
+  {
+    id: "MK-10m24",
+    name: "極致亮 & 奇蹟光采日常防曬霜",
+    category: "保養",
+    price: 100,
+    unit: "/組 一組15包",
+    intro: " 兼具防曬與自然提亮效果，幫助改善暗沉、均勻膚色並帶來水潤光澤。",
+    vendor: " OHUI ",
+    image: "/images/極致亮奇蹟光采日常防曬霜.jpg",
+    story: "• 維他命奇蹟提亮（Miracle Toning）富含 Glow Toning Complex™（包含維他命 C、E 衍生物等複合成分）。除了防曬，它更像是一款保養型素顏霜，能有效改善暗沉、均勻膚色，擦上後肌膚會呈現透亮、健康的自然水光感。• 頂級防曬高規格擁有 SPF50+ / PA++++ 的超強防護力，能長時間阻擋 UVA 和 UVB，有效防止肌膚曬黑、曬傷以及因紫外線引起的提前老化。• 水潤清爽不黏膩質地介於乳液與乳霜之間，延展性極佳，推開後保濕度高卻不會有厚重的油悶感，非常適合做為妝前隔離乳（妝前底霜）使用，能讓後續底妝更服貼。",
+    specs: "規格: 一組15包 單包容量為 1 ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m23",
+    name: "栗皮蝸牛美白祛斑霜",
+    category: "保養",
+    price: 600,
+    unit: "/罐",
+    intro: " 主打美白、淡化雀斑與斑點及改善細紋的雙重功能性保養品",
+    vendor: " SSAENGEOL  ",
+    image: "/images/栗皮蝸牛美白祛斑霜.jpg",
+    story: "美白與抗皺雙效機能面霜 栗皮萃取物栗皮富含大量的單寧酸。能有效緊緻毛孔、抑制黑色素沉澱，並幫助代謝老廢角質，使肌膚表面平滑細緻。腺苷韓國食藥署認證的抗皺成分，能深入肌底提供營養、修護細紋、提升臉部肌膚的彈力與緊緻度。菸鹼醯胺 經典的美白亮膚成分，能阻斷黑色素轉移、改善熬夜後的蠟黃暗沉，提升整體膚色的通透感與淨白度。甘草根萃取與保濕因子提供深層水分與修護，舒緩肌膚不適，滋養因乾燥而產生的乾紋。",
+    specs: "規格: 主要成分特色：含有栗子皮（율피）萃取物與甘草根等成分，訴求針對暗沉、黃褐斑與肌膚瑕疵進行亮白修護",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m22",
+    name: " CNP RX 蜂膠奇蹟安瓶精華",
+    category: "保養",
+    price: 100,
+    unit: "/組 一組15包",
+    intro: " 煥活肌膚奇跡，綻放年輕光澤",
+    vendor: " CNP ",
+    image: "/images/CNPRX蜂膠奇蹟安瓶精華.jpg",
+    story: "  核心科技：30% 三重蜂膠復合精華 精選韓國紅蜂膠、綠蜂膠、棕蜂膠，凝聚高濃度抗氧化能量，深入肌底修護，抵御自由基損傷，重現肌膚彈性與光澤。  蜂膠殺菌消炎，鎮靜，促進細胞恢復與再生 強效抗衰 : 肽復合物促進膠原蛋白生成，淡化細紋，緊致肌膚。  透亮煥顏 ：煙酰胺抑制黑色素沈澱，提亮膚色，均勻膚質。  深層滋養：蜂膠精華強化肌膚屏障，舒緩敏感，適合所有膚質。  源自韓國科技，安心配方無添加刺激性成分，溫和呵護肌膚 輕盈質地，迅速吸收 不黏膩不搓泥，融入日常護膚流程毫無負擔 使用方法 每日早晚於潔面、爽膚後，取適量精華輕拍於面部與頸部，直至吸收。主要功效：溫和煥膚成分，幫助角質更新 促進膠原蛋白生成，提高皮膚彈力 抗皺、抗氧化：改善皺紋、提升彈力 修護再生，加速皮膚再生，打造均勻細緻膚質 高效滋養，補充營養與水分，增強肌膚屏障力",
+    specs: "規格: 一組15包",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m21",
+    name: " CNP RX 貴婦煥活面霜",
+    category: "保養",
+    price: 100,
+    unit: "/組 一組15包",
+    intro: " CNP面霜 貴婦面霜 緊緻面霜 頂級系列",
+    vendor: " CNP ",
+    image: "/images/CNPRX貴婦煥活面霜.jpg",
+    story: " SUPREME LIFT™ 緊緻拉提： 主打高效抗老與輪廓提升，針對鬆弛、細紋和缺乏彈性的熟齡肌設計，營造緊緻飽滿的「拉提感」膚質。• 修護與彈力因子： 蘊含 PDRN 與積雪草（Cica）等先進核心複合成分，能有效修護受損肌膚、激活肌膚彈力並維持膚況穩定。• 高滋養鎖水配方： 質地偏濃郁滋潤（部分使用者分享具有獨特的拉絲感配方），能於夜間深層補水、鎖水，改善乾燥引起的細紋。• 雙重機能證實： 具備韓國官方核可的美白（提亮暗沉）與改善皺紋（抗皺護理）雙重保養功效。",
+    specs: "規格: 一組15包",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
     id: "MK-10m20",
     name: "專業持久柔霧氣墊粉餅#19",
     category: "彩妝",
@@ -338,6 +422,34 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/VT100.jpeg",
     story: "VT微針精華100與300屬於不同濃度的居家塗抹式微針保養，應於夜間清潔後作為第一道程序塗抹，300針不用天天使用。深層喚醒肌膚本質能量 結合VT獨家積雪草修護力，同時實現高效滲透與舒緩效果，重現光滑的肌膚一次使用即強化肌膚屏障，兩週明顯收細毛孔、提亮膚色舒緩泛紅不適，重現肌膚的健康光澤使用後能舒緩痘痘、淡化色斑，改善泛紅暗沉，同時修護受刺激的脆弱肌膚",
     specs: "正品50ml/使用方式:1. 夜間清潔：晚上洗完臉後，直接將微針精華（100或依頻率用300）塗在臉上，以輕按方式幫助吸收（會有微刺感屬正常現象）。2。待精華完全吸收後，接著使用微晶全效修護面霜或其他溫和保濕產品鎖水。3. 日間防護：隔天早晚務必加強保濕與防曬",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-7",
+    name: "Essential精華系列面膜玫瑰PDRN精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "滋養潤澤，讓肌膚散發自然透亮感。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜玫瑰PDRN精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "滋養潤澤，讓肌膚散發自然透亮感。",
+    stars: 4.8,
+    reviewsCount: 88
+  },
+  {
+    id: "MK-10m07-6",
+    name: "Essential精華系列面膜積雪草精華",
+    category: "保養",
+    price: 40,
+    unit: "/片",
+    intro: "適合敏弱肌使用，給肌膚安撫與舒緩的溫柔呵護。",
+    vendor: "EDIHEAL",
+    image: "/images/Essential精華系列面膜積雪草精華.jpg",
+    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
+    specs: "適合敏弱肌使用，給肌膚安撫與舒緩的溫柔呵護。",
     stars: 4.8,
     reviewsCount: 88
   },
@@ -1724,13 +1836,17 @@ export default function App() {
                           product.name.includes("茶樹精華") ? "bg-green-100 text-green-800 border-green-300" :
                           product.name.includes("維他命C精華") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
                           product.name.includes("神經醯胺精華") ? "bg-orange-50 text-orange-600 border-orange-200" :
+                          product.name.includes("積雪草精華") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                          product.name.includes("玫瑰PDRN精華") ? "bg-rose-100 text-rose-700 border-rose-300" :
                           "bg-amber-50 text-amber-600 border-amber-200"
                         }`}>
                           {product.name.includes("膠原蛋白精華") ? " 膠原蛋白精華" :
                            product.name.includes("玻尿酸精華") ? "玻尿酸精華" : 
                            product.name.includes("茶樹精華") ? "茶樹精華" :
                            product.name.includes("維他命C精華") ? "維他命C精華" :
-                           product.name.includes("神經醯胺精華") ? "神經醯胺精華" :""}
+                           product.name.includes("神經醯胺精華") ? "神經醯胺精華" :
+                           product.name.includes("積雪草精華") ? "積雪草精華" :
+                           product.name.includes("玫瑰PDRN精華") ? "玫瑰PDRN精華" :""}
                         </span>  
                       )}
                       {product.name.includes("蓮蓬頭過濾器") && (
@@ -2013,13 +2129,17 @@ export default function App() {
                         selectedProduct.name.includes("茶樹精華") ? "bg-green-100 text-green-800 border-green-300" :
                         selectedProduct.name.includes("維他命C精華") ? "bg-yellow-50 text-yellow-600 border-yellow-200" :
                         selectedProduct.name.includes("神經醯胺精華") ? "bg-orange-50 text-orange-600 border-orange-200" :
+                        selectedProduct.name.includes("積雪草精華") ? "bg-emerald-50 text-emerald-600 border-emerald-200" :
+                        selectedProduct.name.includes("玫瑰PDRN精華") ? "bg-rose-100 text-rose-700 border-rose-300" :
                         "bg-stone-50 text-stone-600 border-stone-200"
                       }`}>
                         {selectedProduct.name.includes("膠原蛋白精華") ? "膠原蛋白精華" :
                          selectedProduct.name.includes("玻尿酸精華") ? "玻尿酸精華" : 
                          selectedProduct.name.includes("茶樹精華") ? "茶樹精華" : 
                          selectedProduct.name.includes("維他命C精華") ? "維他命C精華" : 
-                         selectedProduct.name.includes("神經醯胺精華") ? "神經醯胺精華" : ""}
+                         selectedProduct.name.includes("神經醯胺精華") ? "神經醯胺精華" : 
+                         selectedProduct.name.includes("積雪草精華") ? "積雪草精華" : 
+                         selectedProduct.name.includes("玫瑰PDRN精華") ? "玫瑰PDRN精華" : ""}
                       </span>  
                     )}
                     {selectedProduct.name.includes("蓮蓬頭過濾器") && (
