@@ -39,7 +39,7 @@ const PRODUCTS_DATA: Product[] = [
     unit: "/罐",
     intro: "能提供肌膚長時間芳香添加保乳木果油成份，使肌膚水潤持香",
     vendor: "The Face Shop",
-    image: "/images/香水籽浪漫潤澤身體乳茉莉.jpg",
+    image: "/images/茉莉.jpg",
     story: "• 前調：檸檬、紫羅蘭葉、綠意盎然的初調。• 初擦上的感覺：一開始會聞到非常清爽、微酸的柑橘與鮮嫩的綠葉汁液感，彷彿剛清晨走進開滿白花的庭園，完全不甜膩。• 中調：茉莉花、白百合、橙花。• 核心香氣：以天然茉莉花萃取為主體，糅合了白百合與橙花的純淨。這時期的香氣會轉化為溫柔、高雅且帶點仙氣的複合白花香，非常清雅、知性。• 後調／尾調：麝香、檀香。• 持香餘韻：最後由檀木與麝香沉澱下來，在肌膚表面留下一層乾淨、像剛洗完澡一般的溫暖皂香與貼膚餘韻。",
     specs: "300ml",
     stars: 4.9,
@@ -53,7 +53,7 @@ const PRODUCTS_DATA: Product[] = [
     unit: "/罐",
     intro: "能提供肌膚長時間芳香添加保乳木果油成份，使肌膚水潤持香",
     vendor: "The Face Shop",
-    image: "/images/香水籽浪漫潤澤身體乳玫瑰.jpg",
+    image: "/images/玫瑰.jpg",
     story: "• 前調：佛手柑、橙子。• 初擦上的感覺：帶有微微的柑橘清甜與果香，給人乾淨、清爽的第一印象，平衡了後續花香的厚重感。• 中調：牡丹、玫瑰、小蒼蘭。• 核心香氣：以安第斯玫瑰果與玫瑰精華為主軸，揉合高雅的牡丹與清甜的小蒼蘭，散發出豐富、具層次感的浪漫優雅花香。• 後調／尾調：麝香、琥琥。• 持香餘韻：溫暖的麝香與琥珀在皮膚表面定香，轉化為像偽體香般溫柔、溫暖且貼膚的感性絲絨尾韻。",
     specs: "300ml",
     stars: 4.9,
@@ -98,20 +98,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/極致亮奇蹟光采日常防曬霜.jpg",
     story: "• 維他命奇蹟提亮（Miracle Toning）富含 Glow Toning Complex™（包含維他命 C、E 衍生物等複合成分）。除了防曬，它更像是一款保養型素顏霜，能有效改善暗沉、均勻膚色，擦上後肌膚會呈現透亮、健康的自然水光感。• 頂級防曬高規格擁有 SPF50+ / PA++++ 的超強防護力，能長時間阻擋 UVA 和 UVB，有效防止肌膚曬黑、曬傷以及因紫外線引起的提前老化。• 水潤清爽不黏膩質地介於乳液與乳霜之間，延展性極佳，推開後保濕度高卻不會有厚重的油悶感，非常適合做為妝前隔離乳（妝前底霜）使用，能讓後續底妝更服貼。",
     specs: "規格: 一組15包 單包容量為 1 ml",
-    stars: 4.9,
-    reviewsCount: 165
-  },
-  {
-    id: "MK-10m23",
-    name: "栗皮蝸牛美白祛斑霜",
-    category: "保養",
-    price: 600,
-    unit: "/罐",
-    intro: " 主打美白、淡化雀斑與斑點及改善細紋的雙重功能性保養品",
-    vendor: " SSAENGEOL  ",
-    image: "/images/栗皮蝸牛美白祛斑霜.jpg",
-    story: "美白與抗皺雙效機能面霜 栗皮萃取物栗皮富含大量的單寧酸。能有效緊緻毛孔、抑制黑色素沉澱，並幫助代謝老廢角質，使肌膚表面平滑細緻。腺苷韓國食藥署認證的抗皺成分，能深入肌底提供營養、修護細紋、提升臉部肌膚的彈力與緊緻度。菸鹼醯胺 經典的美白亮膚成分，能阻斷黑色素轉移、改善熬夜後的蠟黃暗沉，提升整體膚色的通透感與淨白度。甘草根萃取與保濕因子提供深層水分與修護，舒緩肌膚不適，滋養因乾燥而產生的乾紋。",
-    specs: "規格: 主要成分特色：含有栗子皮（율피）萃取物與甘草根等成分，訴求針對暗沉、黃褐斑與肌膚瑕疵進行亮白修護",
     stars: 4.9,
     reviewsCount: 165
   },
@@ -201,13 +187,13 @@ const PRODUCTS_DATA: Product[] = [
   },
   {
     id: "MK-10m13",
-    name: "菲詩小舖香氛籽玫瑰身體噴霧",
+    name: "香氛籽玫瑰身體噴霧玫瑰",
     category: "香氛",
     price: 390,
     unit: "/罐",
     intro: "富含天然植物油與安第斯玫瑰果油可提供肌膚水潤保濕感",
     vendor: "THE FACE SHOP",
-    image: "/images/菲詩小舖香氛籽玫瑰身體噴霧.jpg",
+    image: "/images/香氛籽玫瑰身體噴霧玫瑰.png",
     story: "香氣：散發浪漫持久的玫瑰花香 用途：可用於身體保濕與增添宜人香氛。",
     specs: "規格： 155ml/成分：萃取自玫瑰果，含有維他命 A 與 C",
     stars: 4.9,
@@ -1513,6 +1499,14 @@ export default function App() {
                            product.name.includes("玫瑰") ? "玫瑰" : ""}
                         </span>  
                       )}
+                      {product.name.includes("香氛籽玫瑰身體噴霧") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("玫瑰") ? "玫瑰" : ""}
+                        </span>
+                      )}
                       {product.name.includes("提亮臥蠶陰影筆") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("藍") ? "bg-sky-50 text-sky-600 border-sky-200" :
@@ -1834,7 +1828,15 @@ export default function App() {
                       }`}>
                         {selectedProduct.name.includes("茉莉") ? "茉莉" :
                          selectedProduct.name.includes("玫瑰") ? "玫瑰" : ""}
-                      </span>      
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("香氛籽玫瑰身體噴霧") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("玫瑰") ? "玫瑰" : ""}
+                      </span>         
                     )}
                     {selectedProduct.name.includes("完美遮瑕氣墊粉餅SPF50+. PA++++") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
