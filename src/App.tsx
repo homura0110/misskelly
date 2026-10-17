@@ -12,6 +12,7 @@ import {
   Eye
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Analytics } from '@vercel/analytics/react';
 
 // Product Interface
 interface Product {
@@ -2001,6 +2002,7 @@ export default function App() {
           </div>
         )}
       </AnimatePresence>
+      <Analytics />
 
     </div>
   );
