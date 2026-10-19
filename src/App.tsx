@@ -32,6 +32,34 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m27-2",
+    name: "香水籽浪漫潤澤沐浴露茉莉",
+    category: "盥洗",
+    price: 390,
+    unit: "/罐",
+    intro: "將茉莉花香封存在微小粒子中，沐浴搓揉時釋放",
+    vendor: "The Face Shop",
+    image: "/images/茉莉沐浴.jpg",
+    story: "• 香調層次：• 前調：清新的檸檬和紫羅蘭葉• 中調：馥郁的茉莉、白百合和橙花• 後調：淡雅的麝香和檀香",
+    specs: "300ml 蘊含荷荷芭籽油，能溫和潔淨肌膚並深層滋潤乾燥肌膚，洗後使肌膚觸感如絲綢與天鵝絨般柔滑",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m27-1",
+    name: "香水籽浪漫潤澤沐浴露玫瑰",
+    category: "盥洗",
+    price: 390,
+    unit: "/罐",
+    intro: "蘊含安第斯山脈玫瑰果籽油與玫瑰萃取物，兼具滋潤與芳香效果",
+    vendor: "The Face Shop",
+    image: "/images/玫瑰沐浴.jpg",
+    story: "• 前調：佛手柑、橙子。• 初擦上的感覺：帶有微微的柑橘清甜與果香，給人乾淨、清爽的第一印象，平衡了後續花香的厚重感。• 中調：牡丹、玫瑰、小蒼蘭。• 核心香氣：以安第斯玫瑰果與玫瑰精華為主軸，揉合高雅的牡丹與清甜的小蒼蘭，散發出豐富、具層次感的浪漫優雅花香。• 後調／尾調：麝香、琥琥。• 持香餘韻：溫暖的麝香與琥珀在皮膚表面定香，轉化為像偽體香般溫柔、溫暖且貼膚的感性絲絨尾韻。",
+    specs: "300ml 蘊含安第斯山脈玫瑰果籽油與玫瑰萃取物，兼具滋潤與芳香效果",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
     id: "MK-10m26-2",
     name: "香水籽浪漫潤澤身體乳茉莉",
     category: "保養",
@@ -818,20 +846,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 165
   },
   {
-    id: "MK-NEW01",
-    name: "養樂多益生菌藍色加量升級版",
-    category: "保健",
-    price: 600,
-    unit: "/罐",
-    intro: "將單包容量從兩g翻倍到4g添加了四種專利益生菌與天然甜菓根萃取的益生元。",
-    vendor: "HY Labs",
-    image: "/images/養樂多益生菌藍色加量升級版.jpg",
-    story: "將單包容量從兩g翻倍到4g添加了四種專利益生菌與天然甜菓根萃取的益生元。包含1,000,000,000以上活降低了甜度，添加「鋅」。適合全家大小腸胃保養。改變菌從生態、促進腸胃蠕動、排便順暢。",
-    specs: "規格：罐 / (4g*60)",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
     id: "MK-NEW02",
     name: "藥妝必買貼布冷熱敷涼感貼布大片裝",
     category: "保健",
@@ -1385,6 +1399,16 @@ export default function App() {
                         }`}>
                           {product.name.includes("茉莉") ? "茉莉" :
                            product.name.includes("玫瑰") ? "玫瑰" : ""}
+                        </span>
+                      )}
+                      {product.name.includes("香水籽浪漫潤澤沐浴露") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("茉莉") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                          product.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("茉莉") ? "茉莉" :
+                           product.name.includes("玫瑰") ? "玫瑰" : ""}
                         </span>  
                       )}
                       {product.name.includes("香氛籽玫瑰身體噴霧") && (
@@ -1709,6 +1733,16 @@ export default function App() {
                       </span>
                     )}
                     {selectedProduct.name.includes("香水籽浪漫潤澤身體乳") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("茉莉") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                        selectedProduct.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("茉莉") ? "茉莉" :
+                         selectedProduct.name.includes("玫瑰") ? "玫瑰" : ""}
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("香水籽浪漫潤澤沐浴露") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                         selectedProduct.name.includes("茉莉") ? "bg-amber-50 text-amber-700 border-amber-200" :
                         selectedProduct.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
