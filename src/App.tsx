@@ -32,6 +32,48 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-B96-3",
+    name: "兒童潔面慕斯蜂膠茶樹",
+    category: "盥洗",
+    price: 180,
+    unit: "/罐",
+    intro: "專為幼兒弱敏肌設計！不流淚低敏配方、綿密細緻泡沫，洗淨過程減輕肌膚搓揉刺激，洗後清爽不乾澀，全家大小皆能安心使用！",
+    vendor: "Baby First",
+    image: "/images/兒童潔面慕斯蜂膠茶樹.jpg",
+    story: "溫和守護寶寶與全家人的嬌嫩肌膚！「Baby First 兒童潔面慕斯 薰衣草」專為兒童及脆弱敏感肌膚所研發。採用極致溫和的不流淚配方，低敏且不刺激眼睛。富含多種天然植物萃取精華、寶寶肌膚所需的營養與天然保濕因子，搭配豐盈細緻的慕斯泡沫，在洗淨過程中能有效減輕肌膚搓揉的刺激感，洗後能在皮膚表面形成一層柔嫩的保護屏障，舒緩並降低因乾燥引起的過敏與乾癢不適，帶給肌膚最溫柔、最純淨的洗淨體驗。【不流淚低敏配方 溫和不熏眼】 專為兒童及脆弱的弱敏肌設計，經低敏測試不刺激。無香精與刺激性化學添加，即便不小心弄到眼睛也不容易引起熏眼與流淚，讓洗臉時光變得輕鬆又愉快！【天然植萃精華 鎖水保濕不乾澀】 富含多種精選植物萃取精華（有機柳蘭、有機露珠草、有機苦薄荷萃取液）與天然保濕因子，為細緻肌膚提供必備的潤澤與營養。天然的薰衣草精油，散發淡淡天然舒緩草本香氣，洗臉時同時放鬆身心。【綿密泡沫慕斯 物理性減輕摩擦】 輕輕一按即可擠出極其豐盈、蓬鬆、綿密細緻的泡沫。綿密的泡沫宛如棉花糖般溫柔包覆肌膚，在洗淨髒污的同時能物理性降低手部搓揉肌膚時的拉扯與摩擦，保護脆弱的角質屏障。洗後乾爽、不緊繃、不黏膩，在肌膚表面形成一層隱形保護屏障，維持長效水潤。",
+    specs: "規格：罐 / 廠牌：Baby First / 主要成分：水、有機椰油醯胺、月桂醇聚醚硫酸酯鈉、椰油醯胺丙基甜菜鹼、甘油、氯化鈉、檸檬酸、甲基異塞坐琳酮、聚乙二醇-7、月桂醇聚醚磺基琥珀酸酯二鈉、有機柳蘭萃取液、有機露珠草萃取液、有機苦薄荷萃取液、薰衣草精油 / 適用對象：嬰幼兒、兒童、敏感肌膚、一般膚質，無使用年齡限制（亦非常適合全家人日常洗臉保養） / 使用方法：取適量綿密泡沫於掌心，以指腹輕柔按摩臉部肌膚，再以清水徹底清洗乾淨即可。洗後在肌膚表面形成保護屏障，舒緩因乾燥引起的肌膚過敏與乾癢不適。",
+    stars: 4.8,
+    reviewsCount: 82
+  },
+  {
+    id: "MK-B96-2",
+    name: "兒童潔面慕斯薰衣草",
+    category: "盥洗",
+    price: 180,
+    unit: "/罐",
+    intro: "專為幼兒弱敏肌設計！不流淚低敏配方、綿密細緻泡沫，洗淨過程減輕肌膚搓揉刺激，洗後清爽不乾澀，全家大小皆能安心使用！",
+    vendor: "Baby First",
+    image: "/images/兒童洗面薰衣草.png",
+    story: "溫和守護寶寶與全家人的嬌嫩肌膚！「Baby First 兒童潔面慕斯 薰衣草」專為兒童及脆弱敏感肌膚所研發。採用極致溫和的不流淚配方，低敏且不刺激眼睛。富含多種天然植物萃取精華、寶寶肌膚所需的營養與天然保濕因子，搭配豐盈細緻的慕斯泡沫，在洗淨過程中能有效減輕肌膚搓揉的刺激感，洗後能在皮膚表面形成一層柔嫩的保護屏障，舒緩並降低因乾燥引起的過敏與乾癢不適，帶給肌膚最溫柔、最純淨的洗淨體驗。【不流淚低敏配方 溫和不熏眼】 專為兒童及脆弱的弱敏肌設計，經低敏測試不刺激。無香精與刺激性化學添加，即便不小心弄到眼睛也不容易引起熏眼與流淚，讓洗臉時光變得輕鬆又愉快！【天然植萃精華 鎖水保濕不乾澀】 富含多種精選植物萃取精華（有機柳蘭、有機露珠草、有機苦薄荷萃取液）與天然保濕因子，為細緻肌膚提供必備的潤澤與營養。天然的薰衣草精油，散發淡淡天然舒緩草本香氣，洗臉時同時放鬆身心。【綿密泡沫慕斯 物理性減輕摩擦】 輕輕一按即可擠出極其豐盈、蓬鬆、綿密細緻的泡沫。綿密的泡沫宛如棉花糖般溫柔包覆肌膚，在洗淨髒污的同時能物理性降低手部搓揉肌膚時的拉扯與摩擦，保護脆弱的角質屏障。洗後乾爽、不緊繃、不黏膩，在肌膚表面形成一層隱形保護屏障，維持長效水潤。",
+    specs: "規格：罐 / 廠牌：Baby First / 主要成分：水、有機椰油醯胺、月桂醇聚醚硫酸酯鈉、椰油醯胺丙基甜菜鹼、甘油、氯化鈉、檸檬酸、甲基異塞坐琳酮、聚乙二醇-7、月桂醇聚醚磺基琥珀酸酯二鈉、有機柳蘭萃取液、有機露珠草萃取液、有機苦薄荷萃取液、薰衣草精油 / 適用對象：嬰幼兒、兒童、敏感肌膚、一般膚質，無使用年齡限制（亦非常適合全家人日常洗臉保養） / 使用方法：取適量綿密泡沫於掌心，以指腹輕柔按摩臉部肌膚，再以清水徹底清洗乾淨即可。洗後在肌膚表面形成保護屏障，舒緩因乾燥引起的肌膚過敏與乾癢不適。",
+    stars: 4.8,
+    reviewsCount: 82
+  },
+  {
+    id: "MK-B96-1",
+    name: "兒童潔面慕斯玫瑰",
+    category: "盥洗",
+    price: 180,
+    unit: "/罐",
+    intro: "專為弱敏肌製造！大馬士革玫瑰不流淚低敏配方，綿密細緻泡沫能在洗淨過程中減輕肌膚搓揉的刺激感，全家人均能安心使用！",
+    vendor: "Baby First",
+    image: "/images/兒童潔面玫瑰.jpg",
+    story: "溫和守護寶寶與全家人的嬌嫩肌膚！「Baby First 兒童潔面慕斯 玫瑰 (大馬士革玫瑰)」專為兒童及脆弱敏感肌膚所研發。採用極致溫和的不流淚配方，低敏且不刺激眼睛。富含多種天然植物萃取精華、寶寶肌膚所需的營養與天然保濕因子，搭配豐盈細緻的慕斯泡沫，在洗淨過程中能有效減輕肌膚搓揉的刺激感，洗後能在皮膚表面形成一層柔嫩的保護屏障，舒緩並降低因乾燥引起的過敏與乾癢不適，帶給肌膚最溫柔、最純淨的洗淨體驗。【不流淚低敏配方 溫和不熏眼】 專為兒童及脆弱的弱敏肌設計，經低敏測試不刺激。無香精與刺激性化學添加，即便不小心弄到眼睛也不容易引起熏眼與流淚，讓洗臉時光變得輕鬆又愉快！【大馬士革玫瑰 植萃滋養保濕】 富含多種精選天然植物萃取精華（有機柳蘭、有機露珠草、有機苦薄荷萃取液）與天然保濕因子，提供極佳的修護與保濕屏障。特別添加純淨大馬士革玫瑰精油，散發高雅舒服的清幽芬芳，讓洗臉保養的每一刻都清新怡人、舒緩愉悅。【綿密泡沫慕斯 減輕拉扯摩擦】 輕輕一按即可擠出極其豐盈、蓬鬆、綿密細緻的泡沫。綿密的泡沫宛如棉花糖般溫柔包覆肌膚，在洗淨髒污的同時能物理性降低手部搓揉肌膚時的拉扯與摩擦，保護脆弱的角質屏障。洗後乾爽、不緊繃、不黏膩，在肌膚表面形成一層隱形保護屏障，長效鎖水、水嫩清爽。",
+    specs: "規格：罐 / 廠牌：Baby First / 主要成分：水、有機椰油醯胺、月桂醇聚醚硫酸酯鈉、椰油醯胺丙基甜菜鹼、甘油、氯化鈉、檸檬酸、甲基異塞坐琳酮、聚乙二醇-7、月桂醇聚醚磺基琥珀酸酯二鈉、有機柳蘭萃取液、有機露珠草萃取液、有機苦薄荷萃取液、玫瑰精油 / 適用對象：嬰幼兒、兒童、敏感肌膚、一般膚質，無使用年齡限制（亦非常適合全家人日常洗臉保養） / 使用方法：取適量綿密泡沫於掌心，以指腹輕柔按摩臉部肌膚，再以清水徹底清洗乾淨即可。洗後在肌膚表面形成保護屏障，舒緩並降低因乾燥引起的肌膚過敏與乾癢不適。",
+    stars: 4.8,
+    reviewsCount: 78
+  },
+  {
     id: "MK-10m28",
     name: "香氛室内芳香包",
     category: "其他",
@@ -114,20 +156,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "成分:維生素複合物 (C、B3、B5)、神經醯胺、積雪草苷、天然滋養因子",
     stars: 4.9,
     reviewsCount: 165
-  },
-  {
-    id: "MK-NEW11",
-    name: "PDRN 保濕潤澤護理液",
-    category: "其他",
-    price: 470,
-    unit: "/組",
-    intro: "補充水分，維持雙眼舒適",
-    vendor: "Lian",
-    image: "/images/PDRN保濕潤澤護理液.jpg",
-    story: "補充水分，維持雙眼舒適，上班盯電腦、滑手機的必備好物，無添加防腐劑，溫和保養更放",
-    specs: "規格：0.5ml×30入單支包裝",
-    stars: 4.9,
-    reviewsCount: 245
   },
   {
     id: "MK-10m24",
@@ -1321,6 +1349,18 @@ export default function App() {
                            product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
                         </span>
                       )}
+                      {product.name.includes("兒童潔面慕斯") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                          product.name.includes("薰衣草") ? "bg-violet-50 text-violet-600 border-violet-200" :
+                          product.name.includes("蜂膠茶樹") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("玫瑰") ? "玫瑰" :
+                           product.name.includes("薰衣草") ? "薰衣草" :
+                           product.name.includes("蜂膠茶樹") ? "蜂膠茶樹" : ""}
+                        </span>
+                      )}
                       {product.name.includes("塗抹式微針精華") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("100針日常型") ? "bg-slate-100 text-slate-700 border-slate-300" :
@@ -1660,6 +1700,18 @@ export default function App() {
                         }`}>
                           {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
                            selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
+                        </span>
+                    )}
+                      {selectedProduct.name.includes("兒童潔面慕斯") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("玫瑰") ? "bg-rose-50 text-rose-600 border-rose-200" :
+                          selectedProduct.name.includes("薰衣草") ? "bg-violet-50 text-violet-600 border-violet-200" :
+                          selectedProduct.name.includes("蜂膠茶樹") ? "bg-amber-50 text-amber-700 border-amber-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("玫瑰") ? "玫瑰" :
+                           selectedProduct.name.includes("薰衣草") ? "薰衣草" : 
+                           selectedProduct.name.includes("蜂膠茶樹") ? "蜂膠茶樹" : ""}
                         </span>  
                     )}
                       {selectedProduct.name.includes("塗抹式微針精華") && (
