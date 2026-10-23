@@ -32,6 +32,146 @@ interface Product {
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
   {
+    id: "MK-10m36",
+    name: "完美淨膚卸妝油棉片",
+    category: "盥洗",
+    price: 380,
+    unit: "/罐",
+    intro: "針對頑固防水濃妝、防曬與毛孔深層髒污設計的強效罐裝卸妝棉。不同於一般水感卸妝巾，它主打完美的 7:3 油水黃金比例，兼具卸妝油的超強溶解力與卸妝水的清爽感",
+    vendor: "Ariul",
+    image: "/images/Ariul完美淨膚卸妝油棉片.jpg",
+    story: "• 7:3 油水雙層配方：內含高濃縮潔面油，能快速融化臉上的頑固彩妝（如防水睫毛膏、持久唇釉、多層底妝）與毛孔內的皮脂髒污。• 10 種植萃保濕油成分：富含月見草油、玫瑰果油、夏威夷果仁油、摩洛哥堅果油、酪梨油及荷荷巴油等，在強力卸妝的同時深層滋養肌膚，維持肌膚保水度，洗後不留下緊繃與油膩感。• 複合溫和舒緩配方：加入積雪草、魚腥草萃取，以及玻尿酸、泛醇（維他命B5）與角鯊烷，在摩擦皮膚時提供舒緩鎮靜作用，弱酸性配方對肌膚刺激性低。• 100% 純棉雙面布料設計：• 柔軟壓紋面：可用於重點彩妝（眼唇）的深層卸除，並幫助溫和軟化、去除嘴唇與鼻翼的老廢角質及黑頭。• 平滑面：用於全臉大面積擦拭，帶走殘留的底妝與髒污。",
+    specs: "60片",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m35",
+    name: "淨膚完美卸妝潔顏巾",
+    category: "盥洗",
+    price: 90,
+    unit: "/包",
+    intro: "主打「三合一的高效清潔」，能同時滿足卸妝、潔面與基礎保濕，溫和度與清爽感",
+    vendor: "Ariul",
+    image: "/images/Ariul淨膚完美卸妝潔顏巾.jpg",
+    story: "• 一步驟徹底卸淨（毛孔微塵清潔）：採用親脂親水技術，不只能快速溶解底妝，就連一般不易卸除的防水眼線、唇彩也能輕鬆抹去。經臨床實驗證實，連肉眼看不見的空氣微塵與毛孔髒污都能帶走。• 獨家 Purefull Cocktail 蔬果複合配方：內含番茄、香蕉、胡蘿蔔、蘋果、青花菜與甘藍菜等天然蔬果萃取精華。在清潔時為肌膚注入營養，幫助肌膚達到水油平衡。• 微酸性溫和不辣眼：配方符合肌膚天然屏障，弱酸性且不含酒精與人工色素，並富含向日葵籽油與洋甘菊萃取，即使用在脆弱的眼唇周圍也不易感到熏眼或刺激，非常適合敏感肌。• 免洗式高保濕水感：卸完妝後完全不黏膩、不緊繃。面巾布料質地細緻柔軟，擦拭時能鎖住水分，留下水潤柔軟的膚觸。",
+    specs: "",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m34",
+    name: "魚腥草70%舒緩修復面霜",
+    category: "保養",
+    price: 330,
+    unit: "/罐",
+    intro: "（英文全名：Heartleaf 70% Intense Calming Cream）是一款專為修復受損屏障、深層保濕與泛紅肌膚設計的修護型面霜。它與同系列控油清爽的「70% 舒緩爆水面霜（凝膠質地）」不同，這款「修復面霜」更專注於屏障的滋養與乾敏修復。",
+    vendor: "Anua",
+    image: "/images/Anua 魚腥草70%舒緩修復面霜.jpg",
+    story: "• 70% 韓國在地魚腥草萃取：高含量的魚腥草成分能針對發炎暗瘡、反覆滋生的粉刺及敏感泛紅進行快速的消炎與鎮靜，幫助肌膚回到穩定狀態。• 黃金屏障修復組合（神經醯胺 + 泛醇）：添加了神經醯胺 NP（Ceramide NP）與泛醇（維他命B5）。這兩個成分能像水泥一樣填補受損的肌膚角質屏障，鎖住深層水分，非常適合醫美過後、換季脫皮或屏障受損（洗臉過度、酸類煥膚翻車）的肌膚。• 半透明乳霜質地，潤而不膩：呈現輕盈柔滑的乳霜（Cream）質地。雖然主打強效保濕，但抹開後吸收速度很快，能在肌膚表面形成一層輕薄的保護膜，提供持久滋潤卻不會有厚重的油悶感。• 安全溫和配方：無添加人工香料、無防腐劑，通過低刺激測試，敏感肌與孕婦皆能安心在早晚護膚的最後一步使用。",
+    specs: "規格：100ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m33",
+    name: "魚腥草77%去痘鎮靜化妝水",
+    category: "保養",
+    price: 330,
+    unit: "/罐",
+    intro: "韓國暢銷數百萬瓶的「國民化妝水」。它因為 EXO 隊長 SUHO 的強烈推薦而在韓國 Olive Young 及台韓兩地社群上爆紅，專為敏感肌、粉刺痘痘肌與油水平衡調理而設計。",
+    vendor: "Anua",
+    image: "/images/魚腥草77%去痘鎮靜化妝水.jpg",
+    story: "77% 高濃度魚腥草精華：以高濃度的天然魚腥草萃取液取代一般純水基底，魚腥草中富含的槲皮素成分能迅速舒緩泛紅、消炎並鎮靜肌膚。強效皮脂調理（減少 49.55% 出油）：經臨床實驗證實，能有效規律多餘油脂分泌。油水平衡後，能顯著改善閉口性粉刺、暗粒與反覆生長的痘痘。微酸性溫和代謝：微酸性 pH 5.5 配方符合肌膚天然屏障，結合甘蔗萃取物，能溫和代謝老廢角質，疏通毛孔同時完全不傷肌膚。全成分 EWG 綠色等級：不含酒精、人工香料與色素，更通過「不致粉刺認證（Non-Comedogenic）」，敏弱肌、醫美修護期都能安心上臉",
+    specs: "規格：250ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m32",
+    name: "魚腥草絲滑保濕防曬霜",
+    category: "保養",
+    price: 360,
+    unit: "/罐",
+    intro: "專為敏感肌、痘痘肌與混合肌設計的熱門韓國化妝水感化學防曬。它主打高效的 SPF50+ PA++++ 防曬係數，不僅具備極佳的阻絕紫外線效果，更因為高水潤的清爽質地而受到好評",
+    vendor: "Anua",
+    image: "/images/anua魚腥草保濕防曬.jpg",
+    story: "舒緩鎮靜與穩膚：配方含有高達 30% 的魚腥草萃取物，魚腥草本身富含槲皮素，能快速舒緩泛紅、鎮定曬後泛紅與敏弱肌膚，對易長痘痘的肌膚非常友善。爆水保濕，清爽收尾：結合了泛醇（維他命B5）與復活草精華，能有效鎖住肌膚水分、防止蒸發。雖然保濕力足夠，但抹開後會化為絲滑水感，吸收迅速且完全不泛白、不黏膩。控油與完美妝前乳：內含專利的皮脂調節成分（如栗子皮萃取物），能幫助收斂毛孔並控制油脂分泌，作為妝前底妝使用時不易結塊或浮粉，能大大提高後續底妝的持久力。溫和海洋友善：通過人體低刺激測試，且不添加氧苯酮（Oxybenzone）與奧克立林（Octinoxate）等可能傷害海洋生態或刺激眼周的化學防曬成分，塗抹時不易熏眼。",
+    specs: "規格：50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m31",
+    name: "CICA 老虎積雪草溫和泡沫洗面乳",
+    category: "盥洗",
+    price: 300,
+    unit: "/罐",
+    intro: "超大容量且價格親民 主打豐盈細緻的微米泡沫，能深層清潔毛孔與多餘油脂",
+    vendor: "VT",
+    image: "/images/老虎積雪草溫和泡沫洗面乳.jpg",
+    story: "蘊含積雪草與6種草本成分，可舒緩肌膚並維持水潤，特別適合油性、混合性及痘痘肌日常潔顏使用",
+    specs: "規格：300ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m30-3",
+    name: "pororo兒童牙膏綜合水果",
+    category: "盥洗",
+    price: 90,
+    unit: "/支",
+    intro: "溫和低氟、安全配方與豐富水果口味",
+    vendor: "KM Pharmaceutical",
+    image: "/images/pororo綜合水果.jpg",
+    story: "低氟防蛀配方 天然木糖醇與鈣質添加 5大安全無添加:無添加色素、無防腐劑、無礦物油、無苯甲酮、無動物性原料 溫和低泡不傷牙質",
+    specs: "規格：90g",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m30-2",
+    name: "pororo兒童牙膏蘋果",
+    category: "盥洗",
+    price: 90,
+    unit: "/支",
+    intro: "溫和低氟、安全配方與豐富水果口味",
+    vendor: "KM Pharmaceutical",
+    image: "/images/poporoapple.jpg",
+    story: "低氟防蛀配方 天然木糖醇與鈣質添加 5大安全無添加:無添加色素、無防腐劑、無礦物油、無苯甲酮、無動物性原料 溫和低泡不傷牙質",
+    specs: "規格：90g",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m30-1",
+    name: "pororo兒童牙膏哈密瓜",
+    category: "盥洗",
+    price: 90,
+    unit: "/支",
+    intro: "溫和低氟、安全配方與豐富水果口味",
+    vendor: "KM Pharmaceutical",
+    image: "/images/pororo哈密瓜.jpg",
+    story: "低氟防蛀配方 天然木糖醇與鈣質添加 5大安全無添加:無添加色素、無防腐劑、無礦物油、無苯甲酮、無動物性原料 溫和低泡不傷牙質",
+    specs: "規格：90g",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-W13-B",
+    name: "93%強效淨白去垢升級版牙膏 藍色",
+    category: "盥洗",
+    price: 80,
+    unit: "/支",
+    intro: "韓國熱銷國民牙膏！獨家93%防牙結石配方，推出三款：藍色去黃消炎、白色美白亮齒、紅色深層清潔去口臭。",
+    vendor: "MEDIAN",
+    image: "/images/牙膏藍.jpg",
+    story: "韓國超人氣熱銷國民級強效牙膏全新升級！MEDIAN 93%強效淨白去垢升級版牙膏，臨床證實防牙石效果高達 93%，全方位極致呵護口腔。針對不同護理需求，精心推出三大經典款：【藍色款】清爽柑橘香，專效去黃與清爽口氣。溫和不傷琺瑯質，讓您重拾自信亮白、清新無比的迷人笑容！",
+    specs: "規格：120g / 支 / 款式：藍色(去黃防牙結石)、白色(美白牙齒)、紅色(深層清潔去口臭) / 主成分：活性沸石、焦酸鈉 / 產地：韓國",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
     id: "MK-B96-3",
     name: "兒童潔面慕斯蜂膠茶樹",
     category: "盥洗",
@@ -1327,6 +1467,18 @@ export default function App() {
                            product.name.includes("紅色") ? "紅色款" : ""}
                         </span>
                       )}
+                      {product.name.includes("pororo兒童牙膏") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("哈密瓜") ? "bg-lime-50 text-lime-700 border-lime-200" :
+                          product.name.includes("蘋果") ? "bg-red-50 text-red-600 border-red-200" :
+                          product.name.includes("綜合水果") ? "bg-pink-100 text-pink-700 border-pink-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("哈密瓜") ? "哈密瓜" :
+                           product.name.includes("蘋果") ? "蘋果" :
+                           product.name.includes("綜合水果") ? "綜合水果" : ""}
+                        </span>
+                      )}
                       {product.name.includes("秀膚生 Cell Fusion C") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("舒緩冰感保濕面膜") ? "bg-blue-50 text-blue-600 border-blue-200" :
@@ -1690,6 +1842,18 @@ export default function App() {
                           {selectedProduct.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
                            selectedProduct.name.includes("No.21 London Musk") ? "No.21 London Musk" :
                            selectedProduct.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
+                        </span>
+                    )}
+                      {selectedProduct.name.includes("pororo兒童牙膏") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("哈密瓜") ? "bg-lime-50 text-lime-700 border-lime-200" :
+                          selectedProduct.name.includes("蘋果") ? "bg-red-50 text-red-600 border-red-200" :
+                          selectedProduct.name.includes("綜合水果") ? "bg-pink-100 text-pink-700 border-pink-300" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("哈密瓜") ? "哈密瓜" :
+                           selectedProduct.name.includes("蘋果") ? "蘋果" :
+                           selectedProduct.name.includes("綜合水果") ? "綜合水果" : ""}
                         </span>
                     )}
                       {selectedProduct.name.includes("飯店療癒保濕香氛身體乳") && (
