@@ -636,20 +636,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 88
   },
   {
-    id: "MK-10m04",
-    name: "清爽瀏海控油棒",
-    category: "其他",
-    price: 430,
-    unit: "/罐",
-    intro: "天氣熱真的讓頭皮難以控制的大出油⋯⋯明明才剛洗頭，出門一陣子就開始油油亮亮、扁塌、條條分明尤其約會、上班、要拍照的時候，瀏海一塌真的整個人都質感不對了",
-    vendor: "Marla",
-    image: "/images/清爽瀏海控油棒.jpg",
-    story: "Naruka 控油棒專門整理出油瀏海、碎髮的小幫手像吸油面紙一樣，把髮絲的油膩感一掃而空。添加 Sebum Comfort Complex複合配方凝膠質地接觸髮絲後轉為乾爽感不容易留下明顯白粉感輕輕刷過就能整理油塌瀏海也能整理頭頂、鬢角等容易出油的部位自帶淡淡皂香＋白花香，清新不厚重小小一支，超級好攜帶。隨時整理尷尬又不舒服的瀏海有時候是一種禮貌耶！直接刷在容易出油的瀏海、髮根或碎髮處，幾秒後再用手或梳子整理即可喔！",
-    specs: "規格：容量15g",
-    stars: 4.8,
-    reviewsCount: 88
-  },
-  {
     id: "MK-9M09",
     name: "飯店療癒保濕香氛身體乳No.20 全新桑塔爾",
     category: "保養",
@@ -982,20 +968,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/乳酸菌&膠原蛋白毛孔緊緻面膜.jpg",
     story: "改善肌膚鬆弛與毛孔、為出老問題而設的面膜，能幫助修復受損的肌腐平衡，讓肌膚持久水瀾光澤。",
     specs: "規格：30ml/pc",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
-    id: "MK-NEW15",
-    name: "新魅黑防水超激細紅蓋版濃烈眼線液",
-    category: "彩妝",
-    price: 270,
-    unit: "/支",
-    intro: "CLIO防水自動眼線液的升級版，防水、防油、防汗的效果更高更持久！",
-    vendor: "CLIO",
-    image: "/images/眼線.jpg",
-    story: "海綿筆頭柔軟不刺激，一筆勾勒精緻眼妝，加強防水、防油、防汗、不暈染，長效持久，2種色彩演繹不同風格的日常眼妝",
-    specs: "規格：02極致棕",
     stars: 4.9,
     reviewsCount: 245
   },
