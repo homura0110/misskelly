@@ -31,6 +31,245 @@ interface Product {
 
 // 8 Curated Luxury Cosmetics Products
 const PRODUCTS_DATA: Product[] = [
+  
+  {
+    id: "MK-10m41",
+    name: "PDRN亮白撫紋精華 ",
+    category: "彩妝",
+    price: 280,
+    unit: "/盒",
+    intro: "含有高濃度 140,000 ppm 鮭魚 PDRN 脂質體成分，搭配膠原蛋白與維他命C，主打肌膚再生、改善細紋、提升彈性與提亮暗沉。 ",
+    vendor: "RiRe ",
+    image: "/images/PDRN亮白撫紋精華安瓶.jpg",
+    story: "• 高濃度 140,000 ppm 鮭魚 PDRN 脂質體。萃取自鮭魚的 DNA 片段，並透過脂質體技術包覆活性成分以提升滲透度，幫助修護受損肌膚並強化彈性。 • 雙重亮白與抗氧化配方。結合維他命 C（COS-VCE）、專利亮白成分（Alpha-Melight）與穀胱甘肽，針對暗沉、膚色不均與瑕疵提供提亮效果。 • 7 重膠原蛋白與保濕因子。添加膠原蛋白複合物與木糖醇基葡糖苷（AQUAXYL），為乾燥肌膚補充水分並改善細紋",
+    specs: "規格：50ml",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m38",
+    name: "蘆薈涼感防曬棒",
+    category: "彩妝",
+    price: 450,
+    unit: "/支",
+    intro: "SPF50+ PA++++，提供高規格的UVA與UVB防護",
+    vendor: "Holika Holika ",
+    image: "/images/蘆薈涼感防曬棒.jpg",
+    story: "採用冷萃法萃取的蘆薈葉水與蘆薈葉精華，搭配天然來源的鎮靜舒緩複合成分（如蘆薈、山藥、海藻等）來降低日曬後的肌膚熱感 。清爽不黏膩，兼具防水性，且符合海洋友善（Reef-safe）概念，不含破壞海洋生態的防曬成分。",
+    specs: "規格：單支 23g ",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m45-3",
+    name: "實感深層全效面膜紫色",
+    category: "保養",
+    price: 120,
+    unit: "/片 420元/盒",
+    intro: "PDRN魚子精華深層煥活面膜",
+    vendor: "Biodance",
+    image: "/images/紫.jpg",
+    story: "PDRN、魚子精華	深層滋養、煥活修護、提升緊緻光澤",
+    specs: "熟齡肌、極度乾燥、需要高階滋養修護者",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m45-3",
+    name: "實感深層全效面膜黃色",
+    category: "保養",
+    price: 120,
+    unit: "/片 420元/盒",
+    intro: "維他命菸鹼醯胺深層美白全效面膜",
+    vendor: "Biodance",
+    image: "/images/黃.jpg",
+    story: "菸鹼醯胺（維他命B3）、多重維他命	提亮膚色、改善暗沉蠟黃、均勻膚色 ",
+    specs: "膚色暗沉無光、膚色不均、熬夜蠟黃者",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m45-2",
+    name: "實感深層全效面膜藍色",
+    category: "保養",
+    price: 120,
+    unit: "/片 420元/盒",
+    intro: "多重保濕鎮靜實感深層全效面膜",
+    vendor: "Biodance",
+    image: "/images/藍.jpg",
+    story: "小分子玻尿酸、5重神經醯胺、泛醇（B5）、冰川水	深層補水、鎮靜降溫、強化肌膚屏障 ",
+    specs: "乾燥缺水、敏感泛紅、換季膚況不穩者",
+    stars: 4.8,
+    reviewsCount: 94
+  }, 
+  {
+    id: "MK-10m45-1",
+    name: "實感深層全效面膜粉色",
+    category: "保養",
+    price: 120,
+    unit: "/片 420元/盒",
+    intro: "膠原蛋白實感深層全效面膜",
+    vendor: "Biodance",
+    image: "/images/粉.jpg",
+    story: "超低分子膠原蛋白、半乳糖酵母發酵濾液 澎潤彈力、細緻毛孔、撫平乾紋 ",
+    specs: "乾燥粗糙、缺乏彈性、在意毛孔粗大者",
+    stars: 4.8,
+    reviewsCount: 94
+  },  
+  {
+    id: "MK-10m44-5",
+    name: "芒果籽保濕香氛護手霜#13扁柏/檜木",
+    category: "保養",
+    price: 270,
+    unit: "/支",
+    intro: "韓國的人氣香氛保養品牌，主打香水級調香與清爽不黏膩的保濕質地",
+    vendor: "hetras",
+    image: "/images/雪松.jpg",
+    story: "含丹麥芒果籽黃油、乳木果油、荷荷巴籽油、摩洛哥堅果油、澳洲堅果籽油等6種天然植物滋養成分，通過肌膚敏感測試。水潤絲綢霜狀，吸收快速、不留油膩感",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  }, 
+  {
+    id: "MK-10m44-4",
+    name: "芒果籽保濕香氛護手霜#07五星級木香/飯店",
+    category: "保養",
+    price: 270,
+    unit: "/支",
+    intro: "韓國的人氣香氛保養品牌，主打香水級調香與清爽不黏膩的保濕質地",
+    vendor: "hetras",
+    image: "/images/飯店.jpg",
+    story: "含丹麥芒果籽黃油、乳木果油、荷荷巴籽油、摩洛哥堅果油、澳洲堅果籽油等6種天然植物滋養成分，通過肌膚敏感測試。水潤絲綢霜狀，吸收快速、不留油膩感",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  }, 
+  {
+    id: "MK-10m44-3",
+    name: "芒果籽保濕香氛護手霜#05皂香",
+    category: "保養",
+    price: 270,
+    unit: "/支",
+    intro: "韓國的人氣香氛保養品牌，主打香水級調香與清爽不黏膩的保濕質地",
+    vendor: "hetras",
+    image: "/images/肥皂.jpg",
+    story: "含丹麥芒果籽黃油、乳木果油、荷荷巴籽油、摩洛哥堅果油、澳洲堅果籽油等6種天然植物滋養成分，通過肌膚敏感測試。水潤絲綢霜狀，吸收快速、不留油膩感",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  }, 
+  {
+    id: "MK-10m44-2",
+    name: "芒果籽保濕香氛護手霜#02花店",
+    category: "保養",
+    price: 270,
+    unit: "/支",
+    intro: "韓國的人氣香氛保養品牌，主打香水級調香與清爽不黏膩的保濕質地",
+    vendor: "hetras",
+    image: "/images/花店.jpg",
+    story: "含丹麥芒果籽黃油、乳木果油、荷荷巴籽油、摩洛哥堅果油、澳洲堅果籽油等6種天然植物滋養成分，通過肌膚敏感測試。水潤絲綢霜狀，吸收快速、不留油膩感",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m44-1",
+    name: "芒果籽保濕香氛護手霜#17無花果",
+    category: "保養",
+    price: 270,
+    unit: "/支",
+    intro: "韓國的人氣香氛保養品牌，主打香水級調香與清爽不黏膩的保濕質地",
+    vendor: "hetras",
+    image: "/images/無花果.jpg",
+    story: "含丹麥芒果籽黃油、乳木果油、荷荷巴籽油、摩洛哥堅果油、澳洲堅果籽油等6種天然植物滋養成分，通過肌膚敏感測試。水潤絲綢霜狀，吸收快速、不留油膩感",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m43",
+    name: "頭皮養髮精華梳",
+    category: "保養",
+    price: 460,
+    unit: "/支",
+    intro: "頭皮保養與護髮產品，主打將頭皮精華安瓶與按摩梳二合一設計",
+    vendor: "Lilyeve",
+    image: "/images/頭皮養髮精華梳.jpg",
+    story: "內建 38根柔軟矽膠按摩刷毛，旋轉開關（ON/OFF）即可一邊梳頭、一邊將精華液精準導入頭皮，不用擔心滴得到處都是或弄髒雙手。GROW:TURN 豐盈系列（橘色）：添加咖啡因活化髮根、高濃縮生物素（Biotin）強韌髮絲結構、維生素B5衍生物深層鎖水，並結合魚腥草、乳酸菌發酵與何首烏等成分，適合細軟髮、容易扁塌或想維持豐盈感的人。SCALP:TURN 舒敏系列（綠色－積雪草PDRN舒敏精華梳）：添加高濃度積雪草與PDRN，適合頭皮容易出油、換季乾癢、敏感或有頭皮屑困擾的人：採用極微小載體技術，質地清爽、帶有微微的涼感（含有薄荷醇），免沖洗。",
+    specs: "規格： 150ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m42",
+    name: "頭皮賦活養護精華",
+    category: "保養",
+    price: 490,
+    unit: "/支",
+    intro: "部分款式結合了精華液與按摩梳頭設計（例如 PDRN 防脫精華梳），方便在半乾或乾髮時一邊梳理、一邊將精華均勻塗抹並按摩頭皮，免沖洗。",
+    vendor: "epais",
+    image: "/images/epais 頭皮賦活.jpg",
+    story: "包含 PDRN（聚脫氧核苷酸）、外泌體、咖啡因、生物素、啤酒酵母菌及何首烏萃取等。協助調理頭皮環境、控油、減少頭皮悶熱感與異味、強健髮根及改善毛躁。",
+    specs: "規格： 150ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m40",
+    name: "胜肽半乳糖發酵泡泡潔面乳",
+    category: "盥洗",
+    price: 290,
+    unit: "/支",
+    intro: "Dr.PEPTI+ 是韓國知名的胜肽保養品牌，最出名的是胜肽泡泡精華。又稱銀瓶。",
+    vendor: "Dr.PEPTI+",
+    image: "/images/胜肽半乳糖發酵泡泡潔面乳.jpg",
+    story: "• 核心成分：• 半乳糖酵母發酵濾液：幫助調理肌膚紋理、提亮與均勻膚色。• 銅三胜肽（Copper Tripeptide-1）：協助維持肌膚健康與修護屏障。• 保濕與舒緩成分：添加甘油、甜菜鹼等，維持洗後水潤感。• 質地與功效：• 質地為綿密細緻的奶油泡沫，標榜能深入毛孔清潔日常油脂、灰塵與輕薄底妝。• 洗後訴求不乾澀、不緊繃。",
+    specs: "規格： 110ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-10m39",
+    name: "CeraBarrier 神經醯胺屏障保濕活性精華乳霜",
+    category: "保養",
+    price: 580,
+    unit: "/罐",
+    intro: "富含 5 種不同種類的神經醯胺複合物，能模擬肌膚天然油脂結構。",
+    vendor: "Holika Holika",
+    image: "/images/HOLIKA CeraBarrier 神經.jpg",
+    story: "• 主要功效：• 修護與強健受損的皮膚屏障。• 深度保濕、鎖水，舒緩乾燥與緊繃感。• 質地輕盈好吸收，不造成肌膚厚重或油膩負擔。• 適用膚質：適合各種膚質，特別推薦給乾燥、缺水及敏感性肌膚日常使用。",
+    specs: "規格： 50ml",
+    stars: 4.8,
+    reviewsCount: 94
+  },
+  {
+    id: "MK-G56-2",
+    name: "鑽石潤唇膏粉色款",
+    category: "彩妝",
+    price: 280,
+    unit: "/支",
+    intro: "PETIT GIRL 鑽石潤唇膏，自然補充水分！質地滋潤清爽不黏膩、不油膩，防止唇紋乾裂、脫皮等現象，護唇效果超棒。自然柔嫩的淡粉色，能修飾原本暗沉的唇色，打造偽素顏的好氣色。",
+    vendor: "PETIT GIRL",
+    image: "/images/粉lip.jpg",
+    story: "自然補水、保濕滋潤！讓雙唇隨時綻放水嫩透亮的鑽石般迷人光澤。「PETIT GIRL 鑽石潤唇膏」專為乾裂與暗沉雙唇研發，質地極致滋潤卻清爽、絕不黏膩不油膩。能全天候防止唇紋、乾裂、脫皮等問題，滋潤效果超棒，是日常唇部護理與增添好氣色的完美首選。【產品色號】色號004【核心五大修護優勢】 深層密集補水：富含高保濕植物精華，深度滋潤乾燥唇肌，長效鎖水防止水分流失。 防止乾裂脫皮：改善老廢角質、撫平唇紋，預防因乾燥、換季或低溫引起的唇部脫皮不適。 質地清爽不黏：輕薄柔滑、一抹融化於雙唇，無負擔感，不會有黏膩或悶厚的油脂感。 潤色好氣色：微透光的透亮色澤，既是護唇膏也是淡色唇膏，隨時展現自信柔嫩雙唇。 鑽石光澤：為雙唇披上水光閃耀的細緻薄膜，折射如鑽石般的剔透立體光彩，展現飽滿好膚質！",
+    specs: "規格：支 / 產品色號：001 / 主要成分：玻尿酸、植物保濕油、維他命E、角鯊烷、微晶蠟 / 適用用途：防止唇紋乾裂、深層滋潤唇部、提亮唇色與好氣色 / 使用方法：旋出適量潤唇膏（建議 2-3mm 即可），均勻塗抹於雙唇上。可作為日常護唇膏使用，或在塗抹霧面口紅前作為保濕打底，亦可一日多次重複塗抹以加強滋潤。",
+    stars: 4.8,
+    reviewsCount: 84
+  },
+  {
+    id: "MK-G56",
+    name: "鑽石潤唇膏紅色款",
+    category: "彩妝",
+    price: 280,
+    unit: "/支",
+    intro: "PETIT GIRL 鑽石潤唇膏，自然補充水分！質地滋潤清爽不黏膩、不油膩，防止唇紋乾裂、脫皮等現象，護唇效果超棒。 清透的水紅色，不會過於濃艷，顯白且有活力",
+    vendor: "PETIT GIRL",
+    image: "/images/紅.jpg",
+    story: "自然補水、保濕滋潤！讓雙唇隨時綻放水嫩透亮的鑽石般迷人光澤。「PETIT GIRL 鑽石潤唇膏」專為乾裂與暗沉雙唇研發，質地極致滋潤卻清爽、絕不黏膩不油膩。能全天候防止唇紋、乾裂、脫皮等問題，滋潤效果超棒，是日常唇部護理與增添好氣色的完美首選。【產品色號】色號004【核心五大修護優勢】 深層密集補水：富含高保濕植物精華，深度滋潤乾燥唇肌，長效鎖水防止水分流失。 防止乾裂脫皮：改善老廢角質、撫平唇紋，預防因乾燥、換季或低溫引起的唇部脫皮不適。 質地清爽不黏：輕薄柔滑、一抹融化於雙唇，無負擔感，不會有黏膩或悶厚的油脂感。 潤色好氣色：微透光的透亮色澤，既是護唇膏也是淡色唇膏，隨時展現自信柔嫩雙唇。 鑽石光澤：為雙唇披上水光閃耀的細緻薄膜，折射如鑽石般的剔透立體光彩，展現飽滿好膚質！",
+    specs: "規格：支 / 產品色號：003 / 主要成分：玻尿酸、植物保濕油、維他命E、角鯊烷、微晶蠟 / 適用用途：防止唇紋乾裂、深層滋潤唇部、提亮唇色與好氣色 / 使用方法：旋出適量潤唇膏（建議 2-3mm 即可），均勻塗抹於雙唇上。可作為日常護唇膏使用，或在塗抹霧面口紅前作為保濕打底，亦可一日多次重複塗抹以加強滋潤。",
+    stars: 4.8,
+    reviewsCount: 84
+  },
   {
     id: "MK-NEW21",
     name: "葉黃素護眼膠囊 ",
@@ -81,7 +320,7 @@ const PRODUCTS_DATA: Product[] = [
     unit: "/條",
     intro: "韓國人手一條的祛疤神器！含有10倍細胞再生促進成分，迅速淡化青春痘疤、創傷、燒傷、手術等多種增生肥厚疤痕，膚色恢復率高達78%。",
     vendor: "東亞製藥",
-    image: "/images/除疤.jpg",
+    image: "/images/除疤去痘.jpg",
     story: "韓國大受歡迎、人手必備的祛疤神器！「東亞製藥 Noscarna 祛疤膏」是經臨床試驗證實的高效疤痕修復藥用級軟膏。專為傷口結痂後、青春痘疤痕、創傷、燒傷、手術傷等引起的肥厚性增生疤痕所設計。蘊含高達 10 倍於其他同類產品的促細胞再生關鍵活性成分，深入瓦解頑固疤痕組織，幫助肌膚重回平滑細緻的原始狀態。【核心五大修復力量】 瓦解疤痕組織：高濃度肝素鈉、尿囊素成分，強力促進細胞新陳代謝與再生，能有效淡化甚至長達數年的老舊疤痕。 改善色素沉澱與厚度：經臨床證實，使用後膚色恢復效果達 78%，傷疤厚度可減少 33.2%，還您無瑕均勻美肌。 10% 矽油保護膜：特調添加 10% 矽油成分，在疤痕表面形成超薄透氣隱形保護層，鎖水保濕、減少外部摩擦對新生肌膚的二次傷害。 溫和低刺激配方：質地親膚、延展性佳、吸收迅速，2歲以上幼童、敏感肌、痘痘肌以及成人皆能安心塗抹修護。 多種疤痕皆適用：無論是青春痘紅黑印記、創傷、燒傷、割傷還是手術切口，只要傷口完全結痂閉合即可立刻使用！",
     specs: "規格：條 / 20g / 主要成分：肝素鈉、尿囊素、矽油(10%) / 適用對象：青春痘疤痕、創傷、燒傷、刀傷、手術傷、紋唇等增生肥厚性疤痕(2歲以上兒童至成人皆適用) / 使用方法：必須在傷口已完全結痂、癒合、無流血或組織液後使用。取適量塗抹於疤痕處及其周邊肌膚，早晚各一次，輕輕按摩至完全吸收。可隨身攜帶，一日可多次補擦以提升修護效果。",
     stars: 4.9,
@@ -119,7 +358,7 @@ const PRODUCTS_DATA: Product[] = [
     id: "MK-10m34",
     name: "魚腥草70%舒緩修復面霜",
     category: "保養",
-    price: 330,
+    price: 690,
     unit: "/罐",
     intro: "（英文全名：Heartleaf 70% Intense Calming Cream）是一款專為修復受損屏障、深層保濕與泛紅肌膚設計的修護型面霜。它與同系列控油清爽的「70% 舒緩爆水面霜（凝膠質地）」不同，這款「修復面霜」更專注於屏障的滋養與乾敏修復。",
     vendor: "Anua",
@@ -254,20 +493,6 @@ const PRODUCTS_DATA: Product[] = [
     specs: "規格：罐 / 廠牌：Baby First / 主要成分：水、有機椰油醯胺、月桂醇聚醚硫酸酯鈉、椰油醯胺丙基甜菜鹼、甘油、氯化鈉、檸檬酸、甲基異塞坐琳酮、聚乙二醇-7、月桂醇聚醚磺基琥珀酸酯二鈉、有機柳蘭萃取液、有機露珠草萃取液、有機苦薄荷萃取液、薰衣草精油 / 適用對象：嬰幼兒、兒童、敏感肌膚、一般膚質，無使用年齡限制（亦非常適合全家人日常洗臉保養） / 使用方法：取適量綿密泡沫於掌心，以指腹輕柔按摩臉部肌膚，再以清水徹底清洗乾淨即可。洗後在肌膚表面形成保護屏障，舒緩因乾燥引起的肌膚過敏與乾癢不適。",
     stars: 4.8,
     reviewsCount: 82
-  },
-  {
-    id: "MK-10m28",
-    name: "香氛室内芳香包",
-    category: "其他",
-    price: 450,
-    unit: "/袋",
-    intro: "獨特的天使花園外包裝，陽光和煦的春天花園綻放出活力光彩，宛如自身融入了花香世界中可以放置在需要散發香氣的空間",
-    vendor: "PTATUM",
-    image: "/images/香氛室内芳香包.jpg",
-    story: "這款香氛使用了安全成分的香料，浸泡在天然礦石中，並添加了麝香和玫瑰的香氛，不刺鼻也不濃烈，小文青的香氛首選香調-木質花麝香調前調：檸檬 / 蜜桃 / 蘋果中調：茉莉 / 玉蘭 / 玫瑰後調：麝香 / 木質 / 香草",
-    specs: "40g",
-    stars: 4.9,
-    reviewsCount: 165
   },
   {
     id: "MK-10m27-2",
@@ -438,21 +663,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 165
   },
   {
-    id: "MK-10m02",
-    name: "夜間瘦身助眠益生菌",
-    category: "保健",
-    price: 380,
-    unit: "/罐",
-    intro: "一款可以提高代謝、助眠瘦身的益生菌實在太適合現在生活壓力大、容易影響代謝、然後不好睡的當下",
-    vendor: "YP",
-    image: "/images/夜間瘦身益身菌.jpg",
-    story: "非常適合喜歡吃碳水化合物的我還是愛吃零食的人覺得自己喝水都會胖的姊妹或是正想用運動瘦身的人也有非常大的加乘效果喔！主要原料是藤黃果，加速身體機能代謝，提高睡眠品質、減去爆食的罪惡感晚餐後吃一條或是睡覺前讓我們一起「躺著瘦」",
-    specs: "規格：容量2g*30條",
-    stars: 4.9,
-    reviewsCount: 165
-  },
-
-  {
     id: "MK-S10",
     name: "蘆薈天然配方 97% 舒緩乳液",
     category: "保養",
@@ -566,20 +776,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 88
   },
   {
-    id: "MK-10m07-5",
-    name: "Essential精華系列面膜神經醯胺精華",
-    category: "保養",
-    price: 40,
-    unit: "/片",
-    intro: "修護與鞏固肌膚屏障，幫助舒緩乾癢與緊繃感",
-    vendor: "EDIHEAL",
-    image: "/images/Essential精華系列面膜神經醯胺精華.jpg",
-    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
-    specs: "修護與鞏固肌膚屏障，幫助舒緩乾癢與緊繃感",
-    stars: 4.8,
-    reviewsCount: 88
-  },
-  {
     id: "MK-10m07-4",
     name: "Essential精華系列面膜維他命C精華",
     category: "保養",
@@ -636,20 +832,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 88
   },
   {
-    id: "MK-9M08",
-    name: "飯店療癒保濕香氛身體乳NO.07 Hotel Wood",
-    category: "保養",
-    price: 390,
-    unit: "/罐",
-    intro: "沉韓國香氛界超強王者HETRAS非常高級質感的香味 !! ",
-    vendor: "HETRA",
-    image: "/images/no7bodylo.jpg",
-    story: " 前調： 綠意 中調： 鈴蘭 / 茉莉 / 草本 基調： 木質 / 麝香 / 琥珀 散發濃郁中性的木質香氣，喚起度假時的悠閒記憶。",
-    specs: " 規格：1013ml",
-    stars: 4.9,
-    reviewsCount: 245,
-  },
-  {
     id: "MK-9M07",
     name: "香氛衣物除濕包",
     category: "其他",
@@ -702,20 +884,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/牙刷.jpg",
     story: " 厚度減半，刷柄只有2.5mm 更能深入後排齒縫人體工學手柄，好握舒適，可以好好的刷牙極細0.01mm無刺激刷毛，柔軟高彈力深層清潔齒垢+深入牙間縫隙，溫和清潔齒面與牙齦無刺激纖細柔軟刷毛，有效保護敏感性牙齦",
     specs: " 規格：12入",
-    stars: 4.9,
-    reviewsCount: 245,
-  },
-  {
-    id: "MK-9M01",
-    name: "SPORTS A醇膠原蛋白卸妝濕巾",
-    category: "盥洗",
-    price: 390,
-    unit: "/包",
-    intro: "質地溫和低刺激，不含酒精，敏弱肌也能使用，卸妝後水潤舒適。一片濕巾即可快速卸除彩妝、髒汙，告別繁瑣清潔步驟，方便快捷。添加膠原蛋白和視黃醇，卸妝同時呵護肌膚，維持彈力光澤。",
-    vendor: "TENZERO",
-    image: "/images/A醇膠原蛋白卸妝濕巾.jpg",
-    story: "TENZERO SPORTS A醇膠原蛋白卸妝濕巾，結合卸妝與保養雙重功效，讓您輕鬆擁有潔淨透亮的肌膚。蘊含膠原蛋白和視黃醇成分，在卸除彩妝及汙垢的同時，滋潤並緊緻肌膚，提升彈力。溫和配方，不刺激肌膚，卸妝後肌膚依然水潤不緊繃。方便抽取式設計，隨時隨地輕鬆卸妝，是您外出旅行、運動健身後的理想選擇。每天使用，讓肌膚保持健康光彩。",
-    specs: " 規格：100入",
     stars: 4.9,
     reviewsCount: 245,
   },
@@ -1407,7 +1575,17 @@ export default function App() {
                         }`}>
                           {product.name.includes("No.20 全新桑塔爾") ? "No.20 全新桑塔爾" :
                            product.name.includes("NO.07 Hotel Wood") ? "NO.07 Hotel Wood" : ""}
-                        </span>  
+                        </span>
+                      )}
+                      {product.name.includes("鑽石潤唇膏") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("粉色款") ? "bg-pink-50 text-pink-500 border-pink-200" :
+                          product.name.includes("紅色款") ? "bg-red-50 text-red-600 border-red-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("粉色款") ? "粉色款" :
+                           product.name.includes("紅色款") ? "紅色款" : ""}
+                        </span>    
                        )}
                       {product.name.includes("植物5分鐘快速染髮(白髮專用)") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1487,6 +1665,22 @@ export default function App() {
                            product.name.includes("23") ? "3-BP亞麻高光" : ""}
                         </span>
                       )}
+                      {product.name.includes("芒果籽保濕香氛護手霜") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("#17無花果") ? "bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200" :
+                          product.name.includes("#02花店") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                          product.name.includes("#05皂香") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                          product.name.includes("#07五星級木香/飯店") ? "bg-stone-50 text-stone-600 border-stone-200" :
+                          product.name.includes("#13扁柏/檜木") ? "bg-teal-50 text-teal-700 border-teal-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("#17無花果") ? " #17無花果" :
+                           product.name.includes("#02花店") ? "#02花店" :
+                           product.name.includes("#05皂香") ? "#05皂香" :
+                           product.name.includes("#07五星級木香/飯店") ? "#07五星級木香/飯店" :
+                           product.name.includes("#13扁柏/檜木") ? "#13扁柏/檜木" :""}
+                        </span>  
+                      )}
                       {product.name.includes("最新款完美無瑕粉底液") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
                           product.name.includes("自然色調") ? "bg-amber-50 text-amber-800 border-amber-200" :
@@ -1521,7 +1715,21 @@ export default function App() {
                            product.name.includes("神經醯胺精華") ? "神經醯胺精華" :
                            product.name.includes("積雪草精華") ? "積雪草精華" :
                            product.name.includes("玫瑰PDRN精華") ? "玫瑰PDRN精華" :""}
-                        </span>  
+                        </span>
+                      )}
+                      {product.name.includes("實感深層全效面膜") && (
+                        <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
+                          product.name.includes("紫色") ? "bg-purple-50 text-purple-600 border-purple-200" :
+                          product.name.includes("黃色") ? "bg-yellow-50 text-yellow-700 border-yellow-200" :
+                          product.name.includes("藍色") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                          product.name.includes("粉色") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {product.name.includes("紫色") ? "PDRN魚子" :
+                           product.name.includes("黃色") ? "維他命菸鹼醯胺" :
+                           product.name.includes("藍色") ? "多重保濕鎮靜" :
+                           product.name.includes("粉色") ? "膠原蛋白" :""}
+                        </span>    
                       )}
                       {product.name.includes("蓮蓬頭過濾器") && (
                         <span className={`text-[10px] md:text-xs px-2.5 py-1 rounded-full font-semibold border tracking-wider shadow-sm shrink-0 ${
@@ -1706,6 +1914,16 @@ export default function App() {
                            selectedProduct.name.includes("積雪草涼感舒緩面膜") ? "綠色～積雪草" : ""}
                         </span>
                     )}
+                      {selectedProduct.name.includes("鑽石潤唇膏") && (
+                        <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                          selectedProduct.name.includes("粉色款") ? "bg-pink-50 text-pink-500 border-pink-200" :
+                          selectedProduct.name.includes("紅色款") ? "bg-red-50 text-red-600 border-red-200" :
+                          "bg-amber-50 text-amber-600 border-amber-200"
+                        }`}>
+                          {selectedProduct.name.includes("粉色款") ? "粉色款" :
+                           selectedProduct.name.includes("紅色款") ? "紅色款" : ""}
+                        </span>    
+                    )}
                       {selectedProduct.name.includes("飯店療癒保濕香氛沐浴露") && (
                         <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
                           selectedProduct.name.includes("No.20 全新桑塔爾") ? "bg-blue-50 text-blue-600 border-blue-200" :
@@ -1866,7 +2084,37 @@ export default function App() {
                          selectedProduct.name.includes("神經醯胺精華") ? "神經醯胺精華" : 
                          selectedProduct.name.includes("積雪草精華") ? "積雪草精華" : 
                          selectedProduct.name.includes("玫瑰PDRN精華") ? "玫瑰PDRN精華" : ""}
-                      </span>  
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("芒果籽保濕香氛護手霜") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("#17無花果") ? "bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200" :
+                        selectedProduct.name.includes("#02花店") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                        selectedProduct.name.includes("#05皂香") ? "bg-sky-50 text-sky-600 border-sky-200" :
+                        selectedProduct.name.includes("#07五星級木香/飯店") ? "bg-stone-50 text-stone-600 border-stone-200" :
+                        selectedProduct.name.includes("#13扁柏/檜木") ? "bg-teal-50 text-teal-700 border-teal-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("#17無花果") ? "#17無花果" :
+                         selectedProduct.name.includes("#02花店") ? "#02花店" :
+                         selectedProduct.name.includes("#05皂香") ? "#05皂香" :
+                         selectedProduct.name.includes("#07五星級木香/飯店") ? "#07五星級木香/飯店" :
+                         selectedProduct.name.includes("#13扁柏/檜木") ? "#13扁柏/檜木" :""}
+                      </span>
+                    )}
+                    {selectedProduct.name.includes("實感深層全效面膜") && (
+                      <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
+                        selectedProduct.name.includes("紫色") ? "bg-purple-50 text-purple-600 border-purple-200" :
+                        selectedProduct.name.includes("黃色") ? "bg-yellow-50 text-yellow-700 border-yellow-200" :
+                        selectedProduct.name.includes("藍色") ? "bg-blue-50 text-blue-600 border-blue-200" :
+                        selectedProduct.name.includes("粉色") ? "bg-pink-50 text-pink-600 border-pink-200" :
+                        "bg-stone-50 text-stone-600 border-stone-200"
+                      }`}>
+                        {selectedProduct.name.includes("紫色") ? "PDRN魚子" :
+                         selectedProduct.name.includes("黃色") ? "維他命菸鹼醯胺" :
+                         selectedProduct.name.includes("藍色") ? "多重保濕鎮靜" :
+                         selectedProduct.name.includes("粉色") ? "膠原蛋白" :""}
+                      </span>        
                     )}
                     {selectedProduct.name.includes("蓮蓬頭過濾器") && (
                       <span className={`text-xs px-3 py-1.5 rounded-full font-bold border tracking-wider shadow-sm ${
