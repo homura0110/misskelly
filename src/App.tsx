@@ -33,6 +33,34 @@ interface Product {
 const PRODUCTS_DATA: Product[] = [
   
   {
+    id: "MK-10m47",
+    name: "黑盒水光針極致煥顏面膜",
+    category: "保養",
+    price: 280,
+    unit: "/盒（5片）",
+    intro: "主打與醫美診所施打的麗珠蘭黑盒水光針含有同源核心成分，被稱為無痛版麗珠蘭水光針，專為醫美術後修復與深層抗老設計。",
+    vendor: "Rejuran",
+    image: "/images/麗珠蘭黑盒面膜.jpeg",
+    story: "深層補水鎖水：含有高濃度的多核苷酸（PN/PDRN）成分，具備3D多孔性結構，能有效提高肌膚的鎖水與保濕能力 醫美級術後修復：精華液高達 27ml，內含最高濃度 c-PDRN®（3,000ppm）、積雪草與菸鹼醯胺，能加速皮膚新陳代謝、促進膠原蛋白新生，並強化肌膚屏障延緩肌膚老化：改善皮膚鬆弛、增加彈性與緊實度，並有助於收縮毛孔、穩定膚況。",
+    specs: "規格：5片/盒 ",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
+    id: "MK-10m46",
+    name: "天然專利蘋果多酚髮尾油",
+    category: "保養",
+    price: 370,
+    unit: "/罐",
+    intro: "免沖洗護理精華油，主打修護受損髮絲與高溫抗熱",
+    vendor: "MOEV",
+    image: "/images/然專利蘋果多酚髮尾油.jpeg",
+    story: "結合專利蘋果多酚蛋白質複合物與角蛋白，幫助填補受損髮絲空洞。含蘋果籽油、摩洛哥堅果油、巴卡西籽油、山茶花油、橄欖油、椰子油、夏威夷果仁油、葡萄籽油、沙棘果油，深層滋潤不黏膩。具備高達攝氏 200°C 的抗熱防護，可在使用吹風機、電棒等造型工具前使用。",
+    specs: "規格：80ml ",
+    stars: 4.9,
+    reviewsCount: 165
+  },
+  {
     id: "MK-10m38",
     name: "蘆薈涼感防曬棒",
     category: "彩妝",
@@ -1024,20 +1052,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/藥妝必買貼布冷熱敷涼感貼布大片裝.jpg",
     story: "每片尺寸 10x7（cm）採用堅固柔韌的面料！成不會影響肢體關節運動！關節疼痛、風濕病、背痛、肩周炎，都非常好用。",
     specs: "規格：罐 / (4g*60)",
-    stars: 4.9,
-    reviewsCount: 245
-  },
-  {
-    id: "MK-NEW08",
-    name: "乳酸菌&膠原蛋白毛孔緊緻面膜",
-    category: "保養",
-    price: 200,
-    unit: "/5片",
-    intro: "改善肌膚鬆弛與毛孔、為出老問題而設的面膜！",
-    vendor: "Medipeel",
-    image: "/images/乳酸菌&膠原蛋白毛孔緊緻面膜.jpg",
-    story: "改善肌膚鬆弛與毛孔、為出老問題而設的面膜，能幫助修復受損的肌腐平衡，讓肌膚持久水瀾光澤。",
-    specs: "規格：30ml/pc",
     stars: 4.9,
     reviewsCount: 245
   },
