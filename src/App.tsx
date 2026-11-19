@@ -33,6 +33,20 @@ interface Product {
 const PRODUCTS_DATA: Product[] = [
   
   {
+    id: "MK-NEW34",
+    name: "膠原蛋白保濕提亮化妝水 ",
+    category: "保養",
+    price: 380,
+    unit: "/罐",
+    intro: "玫瑰金瓶的補水效能比之前好三倍豐沛膠原滋潤+改善膚色暗沉",
+    vendor: " Labiotte CollagenEssence ",
+    image: "/images/膠原蛋白保濕提亮化妝水.jpg",
+    story: "1.急救濕敷,化妝棉當補水面膜敷好敷滿2.清潔肌膚去角質,倒再化妝棉上擦拭肌膚3.放在噴霧罐哩,當保濕噴霧使用4.7次爽膚水護膚法:1~2次使用化妝棉擦拭臉部徹底清潔肌膚表面3~5次使用手輕拍臉部吸收加強再加強的7道工序讓肌膚吸飽吸滿精華水分不流失~",
+    specs: " 規格：500ml",
+    stars: 4.9,
+    reviewsCount: 245,
+  },
+  {
     id: "MK-10m47",
     name: "黑盒水光針極致煥顏面膜",
     category: "保養",
@@ -225,20 +239,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/epais 頭皮賦活.jpg",
     story: "包含 PDRN（聚脫氧核苷酸）、外泌體、咖啡因、生物素、啤酒酵母菌及何首烏萃取等。協助調理頭皮環境、控油、減少頭皮悶熱感與異味、強健髮根及改善毛躁。",
     specs: "規格： 150ml",
-    stars: 4.8,
-    reviewsCount: 94
-  },
-  {
-    id: "MK-10m40",
-    name: "胜肽半乳糖發酵泡泡潔面乳",
-    category: "盥洗",
-    price: 290,
-    unit: "/支",
-    intro: "Dr.PEPTI+ 是韓國知名的胜肽保養品牌，最出名的是胜肽泡泡精華。又稱銀瓶。",
-    vendor: "Dr.PEPTI+",
-    image: "/images/胜肽半乳糖發酵泡泡潔面乳.jpg",
-    story: "• 核心成分：• 半乳糖酵母發酵濾液：幫助調理肌膚紋理、提亮與均勻膚色。• 銅三胜肽（Copper Tripeptide-1）：協助維持肌膚健康與修護屏障。• 保濕與舒緩成分：添加甘油、甜菜鹼等，維持洗後水潤感。• 質地與功效：• 質地為綿密細緻的奶油泡沫，標榜能深入毛孔清潔日常油脂、灰塵與輕薄底妝。• 洗後訴求不乾澀、不緊繃。",
-    specs: "規格： 110ml",
     stars: 4.8,
     reviewsCount: 94
   },
@@ -463,20 +463,6 @@ const PRODUCTS_DATA: Product[] = [
     image: "/images/pororo哈密瓜.jpg",
     story: "低氟防蛀配方 天然木糖醇與鈣質添加 5大安全無添加:無添加色素、無防腐劑、無礦物油、無苯甲酮、無動物性原料 溫和低泡不傷牙質",
     specs: "規格：90g",
-    stars: 4.8,
-    reviewsCount: 94
-  },
-  {
-    id: "MK-W13-B",
-    name: "93%強效淨白去垢升級版牙膏 藍色",
-    category: "盥洗",
-    price: 80,
-    unit: "/支",
-    intro: "韓國熱銷國民牙膏！獨家93%防牙結石配方，推出三款：藍色去黃消炎、白色美白亮齒、紅色深層清潔去口臭。",
-    vendor: "MEDIAN",
-    image: "/images/牙膏藍.jpg",
-    story: "韓國超人氣熱銷國民級強效牙膏全新升級！MEDIAN 93%強效淨白去垢升級版牙膏，臨床證實防牙石效果高達 93%，全方位極致呵護口腔。針對不同護理需求，精心推出三大經典款：【藍色款】清爽柑橘香，專效去黃與清爽口氣。溫和不傷琺瑯質，讓您重拾自信亮白、清新無比的迷人笑容！",
-    specs: "規格：120g / 支 / 款式：藍色(去黃防牙結石)、白色(美白牙齒)、紅色(深層清潔去口臭) / 主成分：活性沸石、焦酸鈉 / 產地：韓國",
     stars: 4.8,
     reviewsCount: 94
   },
