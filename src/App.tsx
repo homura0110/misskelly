@@ -720,20 +720,6 @@ const PRODUCTS_DATA: Product[] = [
     reviewsCount: 88
   },
   {
-    id: "MK-10m07-3",
-    name: "Essential精華系列面膜茶樹精華",
-    category: "保養",
-    price: 40,
-    unit: "/片",
-    intro: "清爽舒緩，適合油性或膚況不穩定時使用，帶來清新舒適感。",
-    vendor: "EDIHEAL",
-    image: "/images/Essential精華系列面膜茶樹精華.jpg",
-    story: "MEDIHEAL 新版 Essential 系列面膜，針對日常不同膚況提供細緻呵護。輕薄柔軟的面膜紙，滿滿精華液滲透肌膚，幫助肌膚恢復水潤與健康感，適合日常保養使用。七款對應肌膚日常變化。一週七天。呵護每一天",
-    specs: "清爽舒緩，適合油性或膚況不穩定時使用，帶來清新舒適感。",
-    stars: 4.8,
-    reviewsCount: 88
-  },
-  {
     id: "MK-10m07-2",
     name: "Essential精華系列面膜玻尿酸精華",
     category: "保養",
